@@ -43,7 +43,7 @@ Microgram: 10000000000
 Milligram: 10000000
 Gram: 10000
 Kilogram: 10
-Metic Ton: 0.01
+Metric Ton: 0.01
 Ounce: 352.7396
 Pound: 22.04623
 Stone: 1.57473

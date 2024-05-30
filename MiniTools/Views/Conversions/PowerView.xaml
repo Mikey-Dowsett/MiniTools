@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             x:Class="MiniTools.Views.Conversions.PowerView"
+             xmlns:viewmodel="clr-namespace:MiniTools.Views.Conversions"
+             x:DataType="viewmodel:PowerViewModel"
+             Title="Power">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding FlipFormatsCommand}">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowsUpDown}" Color="{StaticResource Bronze}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem>
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.BoltLightning}" Color="{StaticResource Bronze}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <VerticalStackLayout HorizontalOptions="Fill" VerticalOptions="Center" Spacing="20" Padding="20">
+            <material:PickerField Title="Unit" ItemsSource="{Binding PowerList}" 
+                                  SelectedIndex="{Binding FirstFormat}" AllowClear="False"
+                                  SelectedValueChangedCommand="{Binding ConvertPowerCommand}"/>
+            <material:TextField AllowClear="True" Keyboard="Numeric" Text="{Binding FirstPower}"
+                                ReturnCommand="{Binding ConvertPowerCommand}"
+                                Title="Value" ReturnType="Done"/>
+            
+            <Image>
+                <Image.Source>
+                    <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowDown}" Color="{StaticResource Bronze}" />
+                </Image.Source>
+            </Image>
+            
+            <material:PickerField Title="Unit" ItemsSource="{Binding PowerList}" 
+                                  SelectedIndex="{Binding SecondFormat}" AllowClear="False"
+                                  SelectedValueChangedCommand="{Binding ConvertPowerCommand}"/>
+            <material:TextField Text="{Binding SecondPower}" IsReadOnly="True"/>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -13,3 +13,4 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\refint\MiniToo
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.pdb
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.genruntimeconfig.cache
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\ref\MiniTools.dll
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.sourcelink.json

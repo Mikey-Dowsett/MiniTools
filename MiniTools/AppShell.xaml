@@ -4,8 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
-    xmlns:conversions="clr-namespace:MiniTools.Views.Conversions"
-    xmlns:maths="clr-namespace:MiniTools.Views.Maths"
+    xmlns:navpages="clr-namespace:MiniTools.Views.NavPages"
     FlyoutBehavior="Flyout"
     Title="MiniTools"
     BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}"
@@ -22,15 +21,15 @@
     <ShellContent 
         Title="Conversions" 
         Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ArrowsLeftRight}}" 
-        ContentTemplate="{DataTemplate conversions:ConversionsPage}"/>
+        ContentTemplate="{DataTemplate navpages:ConversionsPage}"/>
     <ShellContent 
         Title="Maths" 
         Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Calculator}}" 
-        ContentTemplate="{DataTemplate maths:MathsPage}"/>
+        ContentTemplate="{DataTemplate navpages:MathsPage}"/>
     
     <Shell.FlyoutFooter>
         <Grid HeightRequest="50">
-            <Label Text="Version 0.0.3" TextColor="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" 
+            <Label Text="Version 0.0.35" TextColor="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" 
                    FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"/>
         </Grid>
     </Shell.FlyoutFooter>

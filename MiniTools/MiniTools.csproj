@@ -66,20 +66,27 @@
     </ItemGroup>
 
     <ItemGroup>
-      <MauiXaml Update="Views\Conversions\ConversionsPage.xaml">
+      <Folder Include="Resources\Images\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <MauiXaml Update="Views\NavPages\ConversionsPage.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+      <MauiXaml Update="Views\NavPages\MathsPage.xaml">
         <SubType>Designer</SubType>
       </MauiXaml>
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="Views\Conversions\ConversionsPage.xaml.cs">
+      <Compile Update="Views\NavPages\ConversionsPage.xaml.cs">
         <DependentUpon>ConversionsPage.xaml</DependentUpon>
         <SubType>Code</SubType>
       </Compile>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Resources\Images\" />
+      <Compile Update="Views\NavPages\MathsPage.xaml.cs">
+        <DependentUpon>MathsPage.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
     </ItemGroup>
 
 </Project>

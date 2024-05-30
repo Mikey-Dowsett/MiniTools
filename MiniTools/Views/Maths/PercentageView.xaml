@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             x:Class="MiniTools.Views.Maths.PercentageView"
+             xmlns:viewmodel="clr-namespace:MiniTools.Views.Maths"
+             x:DataType="viewmodel:PercentageViewModel"
+             Title="Percentage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem>
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Percent}" Color="{StaticResource Bronze}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <VerticalStackLayout HorizontalOptions="Fill" VerticalOptions="Center" Spacing="20" Padding="20">
+            <material:TextField Keyboard="Numeric" AllowClear="True" ReturnType="Done" Title="Number" Text="{Binding Number}"
+                                ReturnCommand="{Binding FindPercentCommand}"
+                                Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Hashtag}}" />
+            
+            <material:TextField Keyboard="Numeric" AllowClear="True" ReturnType="Done" Title="Percent" Text="{Binding Percentage}"
+                                ReturnCommand="{Binding FindPercentCommand}"
+                                Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Percent}}" />
+            
+            <material:TextField IsReadOnly="True" Text="{Binding Answer}" />
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

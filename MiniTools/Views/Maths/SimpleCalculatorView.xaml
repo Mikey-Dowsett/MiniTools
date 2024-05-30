@@ -9,7 +9,6 @@
              x:DataType="viewmodel:SimpleCalculatorViewModel"
              Title="Simple Calculator">
     
-    
     <ContentPage.ToolbarItems>
         <ToolbarItem>
             <ToolbarItem.IconImageSource>

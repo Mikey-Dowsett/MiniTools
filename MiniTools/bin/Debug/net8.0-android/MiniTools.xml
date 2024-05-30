@@ -100,6 +100,38 @@
         <member name="P:MiniTools.Views.Conversions.ForceViewModel.ConvertForceCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Conversions.ForceViewModel.ConvertForce"/>.</summary>
         </member>
+        <member name="T:MiniTools.Views.Conversions.PowerViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MiniTools.Views.Conversions.PowerViewModel.PowerList">
+            <inheritdoc cref="F:MiniTools.Views.Conversions.PowerViewModel.powerList"/>
+        </member>
+        <member name="P:MiniTools.Views.Conversions.PowerViewModel.FirstFormat">
+            <inheritdoc cref="F:MiniTools.Views.Conversions.PowerViewModel.firstFormat"/>
+        </member>
+        <member name="P:MiniTools.Views.Conversions.PowerViewModel.SecondFormat">
+            <inheritdoc cref="F:MiniTools.Views.Conversions.PowerViewModel.secondFormat"/>
+        </member>
+        <member name="P:MiniTools.Views.Conversions.PowerViewModel.FirstPower">
+            <inheritdoc cref="F:MiniTools.Views.Conversions.PowerViewModel.firstPower"/>
+        </member>
+        <member name="P:MiniTools.Views.Conversions.PowerViewModel.SecondPower">
+            <inheritdoc cref="F:MiniTools.Views.Conversions.PowerViewModel.secondPower"/>
+        </member>
+        <member name="F:MiniTools.Views.Conversions.PowerViewModel.flipFormatsCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Conversions.PowerViewModel.FlipFormatsCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Conversions.PowerViewModel.FlipFormatsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Conversions.PowerViewModel.FlipFormats"/>.</summary>
+        </member>
+        <member name="F:MiniTools.Views.Conversions.PowerViewModel.convertPowerCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Conversions.PowerViewModel.ConvertPowerCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Conversions.PowerViewModel.ConvertPowerCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Conversions.PowerViewModel.ConvertPower"/>.</summary>
+        </member>
         <member name="T:MiniTools.Views.Conversions.TemperatureViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -163,6 +195,25 @@
         </member>
         <member name="P:MiniTools.Views.Conversions.WeightViewModel.ConvertWeightCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Conversions.WeightViewModel.ConvertWeight"/>.</summary>
+        </member>
+        <member name="T:MiniTools.Views.Maths.PercentageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.PercentageViewModel.Number">
+            <inheritdoc cref="F:MiniTools.Views.Maths.PercentageViewModel.number"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.PercentageViewModel.Percentage">
+            <inheritdoc cref="F:MiniTools.Views.Maths.PercentageViewModel.percentage"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.PercentageViewModel.Answer">
+            <inheritdoc cref="F:MiniTools.Views.Maths.PercentageViewModel.answer"/>
+        </member>
+        <member name="F:MiniTools.Views.Maths.PercentageViewModel.findPercentCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Maths.PercentageViewModel.FindPercentCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Maths.PercentageViewModel.FindPercentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Maths.PercentageViewModel.FindPercent"/>.</summary>
         </member>
         <member name="T:MiniTools.Views.Maths.SimpleCalculatorViewModel">
             <inheritdoc/>
@@ -357,6 +408,15 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SecondForce">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SecondForce" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PowerList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PowerList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FirstPower">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FirstPower" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SecondPower">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SecondPower" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TemperatureList">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TemperatureList" generated properties.</summary>
         </member>
@@ -374,6 +434,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SecondWeight">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SecondWeight" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Number">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Number" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Percentage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Percentage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Answer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Answer" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Equation">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Equation" generated properties.</summary>
@@ -417,6 +486,15 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SecondForce">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SecondForce" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PowerList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PowerList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FirstPower">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FirstPower" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SecondPower">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SecondPower" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TemperatureList">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TemperatureList" generated properties.</summary>
         </member>
@@ -434,6 +512,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SecondWeight">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SecondWeight" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Number">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Number" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Percentage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Percentage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Answer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Answer" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Equation">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Equation" generated properties.</summary>

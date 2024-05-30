@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.VisualBasic;
 using MiniTools.Views.Conversions;
 using MiniTools.Views.Maths;
+using MiniTools.Views.NavPages;
 using UraniumUI;
 
 namespace MiniTools;
@@ -40,9 +41,15 @@ public static class MauiProgram {
         builder.Services.AddSingleton<WeightView>();
         builder.Services.AddSingleton<WeightViewModel>();
         
+        builder.Services.AddSingleton<PowerView>();
+        builder.Services.AddSingleton<PowerViewModel>();
+        
         //Maths
         builder.Services.AddSingleton<SimpleCalculatorView>();
         builder.Services.AddSingleton<SimpleCalculatorViewModel>();
+        
+        builder.Services.AddSingleton<PercentageView>();
+        builder.Services.AddSingleton<PercentageViewModel>();
         
 #if DEBUG
         builder.Logging.AddDebug();
