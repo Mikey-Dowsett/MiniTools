@@ -1,0 +1,89 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiniTools
+build_property.ProjectDir = C:\Users\mikey\RiderProjects\MiniTools\MiniTools\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Conversions/AreaView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Conversions.AreaView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Conversions\AreaView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Conversions\AreaView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Conversions/ConversionsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Conversions.ConversionsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Conversions\ConversionsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Conversions\ConversionsPage.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Conversions/DistanceView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Conversions.DistanceView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Conversions\DistanceView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Conversions\DistanceView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Conversions/ForceView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Conversions.ForceView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Conversions\ForceView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Conversions\ForceView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Conversions/TemperatureView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Conversions.TemperatureView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Conversions\TemperatureView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Conversions\TemperatureView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Conversions/WeightView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Conversions.WeightView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Conversions\WeightView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Conversions\WeightView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/MathsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.MathsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\MathsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\MathsPage.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/SimpleCalculatorView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.SimpleCalculatorView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\SimpleCalculatorView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\SimpleCalculatorView.xaml

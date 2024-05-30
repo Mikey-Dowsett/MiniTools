@@ -1,0 +1,15 @@
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\bin\Debug\net8.0\MiniTools.deps.json
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\bin\Debug\net8.0\MiniTools.runtimeconfig.json
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\bin\Debug\net8.0\MiniTools.dll
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\bin\Debug\net8.0\MiniTools.pdb
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.csproj.AssemblyReference.cache
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.AssemblyInfoInputs.cache
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.AssemblyInfo.cs
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.csproj.CoreCompileInputs.cache
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\XamlC.stamp
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.dll
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\refint\MiniTools.dll
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.pdb
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\MiniTools.genruntimeconfig.cache
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0\ref\MiniTools.dll

@@ -1,0 +1,50 @@
+TEMPERATURE
+Fahrenheit: 32
+Celsius: 0
+Kelvin: 273.15
+Rankine: 491.67
+
+DISTANCE
+Millimeter: 500000
+Centimeter: 50000
+Meter: 500
+Kilometer: 0.5
+Inch: 19685.0394
+Foot: 1640.41995
+Yard: 546.806649
+Mile: 0.310685596
+
+AREA
+Square Millimeter: 500000000
+Square Centimeter: 5000000
+Square Meter: 500
+Square Kilometer: 0.0005
+Hectare: 0.05
+Square Inch: 775001.55
+Square Foot: 5381.95521
+Square Yard: 597.995023
+Square Mile: 0.000193051079
+Acre: 0.123552691
+
+FORCE
+Dyne: 50000000
+Kilogram-Force: 50.9858106
+Kilopond: 50.9858106
+Kip: 0.112404462
+Newton: 500
+Kilonewton: 0.5
+Ounce-Force: 1798.47123
+Poundal: 3616.50573
+Pound-Force: 112.404462
+Ton-Force: 0.0562022372
+
+WEIGHT
+Microgram: 10000000000
+Milligram: 10000000
+Gram: 10000
+Kilogram: 10
+Metic Ton: 0.01
+Ounce: 352.7396
+Pound: 22.04623
+Stone: 1.57473
+Ton: 0.01102311

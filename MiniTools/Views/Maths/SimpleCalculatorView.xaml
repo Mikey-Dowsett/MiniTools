@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             x:Class="MiniTools.Views.Maths.SimpleCalculatorView"
+             xmlns:viewmodel="clr-namespace:MiniTools.Views.Maths"
+             x:DataType="viewmodel:SimpleCalculatorViewModel"
+             Title="Simple Calculator">
+    
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem>
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Calculator}" Color="{StaticResource Bronze}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20" Padding="20">
+            <material:TextField IsReadOnly="True" Text="{Binding Equation}" />
+            <Grid RowDefinitions="*, *, *, *, *" ColumnDefinitions="*, *, *, *" RowSpacing="10" ColumnSpacing="5">
+                <Button Grid.Row="1" Grid.Column="0" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._1}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '1'}"/>
+                <Button Grid.Row="1" Grid.Column="1" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._2}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '2'}"  />
+                <Button Grid.Row="1" Grid.Column="2" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._3}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '3'}"  />
+                <Button Grid.Row="2" Grid.Column="0" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._4}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '4'}"  />
+                <Button Grid.Row="2" Grid.Column="1" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._5}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '5'}"  />
+                <Button Grid.Row="2" Grid.Column="2" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._6}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '6'}"  />
+                <Button Grid.Row="3" Grid.Column="0" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._7}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '7'}"  />
+                <Button Grid.Row="3" Grid.Column="1" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._8}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '8'}"  />
+                <Button Grid.Row="3" Grid.Column="2" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._9}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '9'}"  />
+                <Button Grid.Row="4" Grid.Column="1" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid._0}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '0'}"  />
+                <Button Grid.Row="4" Grid.Column="2" Text="." StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '.'}"  />
+                
+                <Button Grid.Row="0" Grid.Column="0" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.PlusMinus}}" StyleClass="Calculator"  />
+                <Button Grid.Row="0" Grid.Column="1" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Percent}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '%'}"/>
+                <Button Grid.Row="4" Grid.Column="0" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.c}}" StyleClass="Calculator"
+                        Command="{Binding ClearInputCommand}"/>
+                <Button Grid.Row="0" Grid.Column="2" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.DeleteLeft}}" StyleClass="Calculator"
+                        Command="{Binding DeleteCommand}"/>
+                <Button Grid.Row="0" Grid.Column="3" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Plus}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '+'}"  />
+                <Button Grid.Row="1" Grid.Column="3" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Minus}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '-'}"/>
+                <Button Grid.Row="2" Grid.Column="3" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Divide}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '/'}"  />
+                <Button Grid.Row="3" Grid.Column="3" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.x}}" StyleClass="Calculator"
+                        Command="{Binding AddToEquationCommand}" CommandParameter="{x:Char '*'}"  />
+                <Button Grid.Row="4" Grid.Column="3" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Equals}}" StyleClass="Calculator"
+                        Command="{Binding EvaluateCommand}"/>
+                
+            </Grid>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\mikey\AppData\Local\JetBrains\Rider2024.1\resharper-host\temp\Rider\vAny\CoverageData\_MiniTools.1808977356\Snapshot\snapshot.utdcvr</s:String>
+	<s:Boolean x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/ShowAdvancedOptions/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=9D38C81B_002DAB3D_002D4EDA_002DBE07_002DD696487DEFCC/@EntryIndexedValue">49919845-E0C9-45CD-8291-A630A848F32D</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=xUnit/@EntryIndexedValue">33ff99d8-b1ad-4ed5-a4fd-376b97c2c841</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5657c17d_002D5fcb_002D4947_002D9dfc_002Db85435adba39/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.ConversionTests.TemperatureTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.TemperatureViewModelTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.DistanceViewModelTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.AreaViewModelTest.ConvertAreaTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.AreaViewModelTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.ForceViewModelTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
