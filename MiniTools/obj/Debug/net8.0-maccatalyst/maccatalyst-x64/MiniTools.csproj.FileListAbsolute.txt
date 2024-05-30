@@ -308,3 +308,4 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\ma
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MiniTools.pdb
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MiniTools.genruntimeconfig.cache
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\MiniTools.dll
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MiniTools.sourcelink.json

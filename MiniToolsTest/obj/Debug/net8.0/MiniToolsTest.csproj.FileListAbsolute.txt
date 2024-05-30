@@ -158,3 +158,4 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniToolsTest\bin\Debug\net8.0\zh-Hant\Mi
 C:\Users\mikey\RiderProjects\MiniTools\MiniToolsTest\bin\Debug\net8.0\MiniTools.dll
 C:\Users\mikey\RiderProjects\MiniTools\MiniToolsTest\bin\Debug\net8.0\MiniTools.pdb
 C:\Users\mikey\RiderProjects\MiniTools\MiniToolsTest\bin\Debug\net8.0\JetBrains.Annotations.dll
+C:\Users\mikey\RiderProjects\MiniTools\MiniToolsTest\obj\Debug\net8.0\MiniToolsTest.sourcelink.json

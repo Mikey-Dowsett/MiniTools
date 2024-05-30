@@ -19,7 +19,7 @@ public partial class WeightViewModel : ObservableObject {
     }
 
     [RelayCommand]
-    private void ConvertWeight() {
+    public void ConvertWeight() {
         SecondWeight = FirstFormat switch {
             0 => FromMicrogram(), //Microgram
             1 => FromMilligram(), //Milligram
@@ -44,7 +44,7 @@ public partial class WeightViewModel : ObservableObject {
             3 => FirstWeight / 1000000000, //Kilogram
             4 => FirstWeight / 1000000000000, //Metric Ton
             5 => FirstWeight / 28350000, //Ounce
-            6 => FirstWeight / 500000000, //Pound
+            6 => FirstWeight / 453592370, //Pound
             7 => FirstWeight / 6350000000, //Stone
             8 => FirstWeight / 907200000000, //Ton
             _ => FirstWeight, //Default
@@ -113,8 +113,8 @@ public partial class WeightViewModel : ObservableObject {
     
     private double FromOunce() {
         return SecondFormat switch {
-            0 => FirstWeight * 28350000, //Microgram
-            1 => FirstWeight * 28350, //Milligram
+            0 => FirstWeight * 28349523.125, //Microgram
+            1 => FirstWeight * 28349.523125, //Milligram
             2 => FirstWeight * 28.35, //Gram
             3 => FirstWeight / 35.27, //Kilogram
             4 => FirstWeight / 35270, //Metric Ton
@@ -128,8 +128,8 @@ public partial class WeightViewModel : ObservableObject {
     
     private double FromPound() {
         return SecondFormat switch {
-            0 => FirstWeight * 453600000, //Microgram
-            1 => FirstWeight * 453600, //Milligram
+            0 => FirstWeight * 453592370, //Microgram
+            1 => FirstWeight * 453592.37, //Milligram
             2 => FirstWeight * 453.6, //Gram
             3 => FirstWeight / 2.205, //Kilogram
             4 => FirstWeight / 2205, //Metric Ton
@@ -143,8 +143,8 @@ public partial class WeightViewModel : ObservableObject {
     
     private double FromStone() {
         return SecondFormat switch {
-            0 => FirstWeight * 6350000000, //Microgram
-            1 => FirstWeight * 6350000, //Milligram
+            0 => FirstWeight * 6350293180, //Microgram
+            1 => FirstWeight * 6350293.18, //Milligram
             2 => FirstWeight * 6350, //Gram
             3 => FirstWeight * 6.35, //Kilogram
             4 => FirstWeight / 157.5, //Metric Ton
@@ -158,8 +158,8 @@ public partial class WeightViewModel : ObservableObject {
     
     private double FromTon() {
         return SecondFormat switch {
-            0 => FirstWeight * 907200000000, //Microgram
-            1 => FirstWeight * 907200000, //Milligram
+            0 => FirstWeight * 907184740000, //Microgram
+            1 => FirstWeight * 907184740, //Milligram
             2 => FirstWeight * 907200, //Gram
             3 => FirstWeight * 907.2, //Kilogram
             4 => FirstWeight / 1.102, //Metric Ton

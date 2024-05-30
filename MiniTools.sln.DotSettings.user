@@ -12,6 +12,7 @@
     &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.AreaViewModelTest.ConvertAreaTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.AreaViewModelTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.ForceViewModelTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::49919845-E0C9-45CD-8291-A630A848F32D::net8.0::MiniToolsTest.Views.Conversions.WeightViewModelTest.TestConvertWeight&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>
