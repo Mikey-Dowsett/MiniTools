@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             x:Class="MiniTools.Views.NavPages.ConversionsPage"
+             Title="Conversions">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem>
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowsLeftRight}" Color="{StaticResource Bronze}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <VerticalStackLayout Padding="20" Spacing="20">
+                <Button Clicked="OpenTemperature" Text="Temperature" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.TemperatureEmpty}}" />
+                <Button Clicked="OpenDistance" Text="Distance" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Ruler}}" />
+                <Button Clicked="OpenArea" Text="Area" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ChartArea}}" />
+                <Button Clicked="OpenForce" Text="Force" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Dumbbell}}" />
+                <Button Clicked="OpenWeight" Text="Weight" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ScaleBalanced}}" />
+                <Button Clicked="OpenPower" Text="Power" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.BoltLightning}}" />
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

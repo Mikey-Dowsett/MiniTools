@@ -1,5 +1,6 @@
 ﻿using MiniTools.Views.Conversions;
 using MiniTools.Views.Maths;
+using MiniTools.Views.NavPages;
 
 namespace MiniTools;
 
@@ -17,8 +18,10 @@ public partial class AppShell : Shell {
         Routing.RegisterRoute(nameof(AreaView), typeof(AreaView));
         Routing.RegisterRoute(nameof(ForceView), typeof(ForceView));
         Routing.RegisterRoute(nameof(WeightView), typeof(WeightView));
+        Routing.RegisterRoute(nameof(PowerView), typeof(PowerView));
         
         //Maths Views
         Routing.RegisterRoute(nameof(SimpleCalculatorView), typeof(SimpleCalculatorView));
+        Routing.RegisterRoute(nameof(PercentageView), typeof(PercentageView));
     }
 }

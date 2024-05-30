@@ -16,12 +16,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a96787-0fb5-430d-9180-4b029810a0a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MiniToolsTest/Views/Conversions/WeightViewModelTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Conversions/PowerView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Conversions/PowerView.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Conversions/PowerViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/PercentageView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/PercentageView.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/PercentageViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniTools/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Conversions/WeightViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/Conversions/WeightViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/AppShell.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/AppShell.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/AppShell.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/AppShell.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/MauiProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/MiniTools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/MiniTools.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Conversions/ConversionsPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/NavPages/ConversionsPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Conversions/ConversionsPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/NavPages/ConversionsPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Maths/MathsPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/NavPages/MathsPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Maths/MathsPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/NavPages/MathsPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Maths/SimpleCalculatorView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/SimpleCalculatorView.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/com.companyname.minitools-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/com.companyname.minitools-Signed.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/com.companyname.minitools-Signed.apk.idsig" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/com.companyname.minitools-Signed.apk.idsig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/com.companyname.minitools.apk" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/com.companyname.minitools.apk" afterDir="false" />
@@ -33,6 +46,8 @@
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0/MiniTools.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.genruntimeconfig.cache" afterDir="false" />
@@ -45,7 +60,6 @@
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.Export.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.Export.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.Runtime.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/System.Private.CoreLib.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/com.companyname.minitools.apk" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/com.companyname.minitools.apk" afterDir="false" />
@@ -111,39 +125,31 @@
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resolvedassemblies.hash" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resolvedassemblies.hash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/ref/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/ref/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/refint/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/refint/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/ref/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/ref/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/refint/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/refint/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/ref/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/ref/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/refint/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/refint/MiniTools.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/CoverletSourceRootsMapping_MiniToolsTest" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/CoverletSourceRootsMapping_MiniToolsTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/MiniTools.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/MiniTools.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/MiniToolsTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/MiniToolsTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/MiniToolsTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/bin/Debug/net8.0/MiniToolsTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/ref/MiniToolsTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/ref/MiniToolsTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/refint/MiniToolsTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/refint/MiniToolsTest.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,18 +159,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Mikey-Dowsett"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mikey-Dowsett&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mikey-Dowsett/MiniTools.git",
-    "accountId": "61607ddd-c0a9-4a96-ba86-1f8f403ddbb5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mikey-Dowsett/MiniTools.git&quot;,
+    &quot;accountId&quot;: &quot;61607ddd-c0a9-4a96-ba86-1f8f403ddbb5&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8bb8bbf85a380c313f8dc7e7ab6bc99b1821c/App.xaml.sg.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MiniTools/Platforms/Android/MainActivity.cs" root0="SKIP_HIGHLIGHTING" />
@@ -175,6 +181,9 @@
     <ignored-facets>
       <facet id="MiniTools/invalid/Android Facet - MiniTools" />
     </ignored-facets>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -187,27 +196,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android.MiniTools.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Conversions",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android.MiniTools.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Conversions&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\mikey\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\mikey\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\mikey\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\mikey\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\mikey\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\mikey\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Android.MiniTools">
     <configuration name="MiniTools" type="UwpProject" factoryName="UWP">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/MiniTools/MiniTools.csproj" />
@@ -284,7 +293,9 @@
       <workItem from="1717045593471" duration="164000" />
       <workItem from="1717045774600" duration="208000" />
       <workItem from="1717045999671" duration="339000" />
-      <workItem from="1717093898296" duration="1565000" />
+      <workItem from="1717093898296" duration="2498000" />
+      <workItem from="1717099060137" duration="1443000" />
+      <workItem from="1717100534594" duration="1026000" />
     </task>
     <servers />
   </component>
@@ -295,13 +306,41 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="250" />
+    <option name="symbolColumnWidth" value="265" />
     <coverage-tree-state>
       <expand />
       <select />
     </coverage-tree-state>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Conversions" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
