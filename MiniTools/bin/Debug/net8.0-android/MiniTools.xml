@@ -249,6 +249,61 @@
         <member name="P:MiniTools.Views.Maths.SimpleCalculatorViewModel.EvaluateCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Maths.SimpleCalculatorViewModel.Evaluate"/>.</summary>
         </member>
+        <member name="T:MiniTools.Views.Money.InterestViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.BalanceButtonColor">
+            <inheritdoc cref="F:MiniTools.Views.Money.InterestViewModel.balanceButtonColor"/>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.PrincipleButtonColor">
+            <inheritdoc cref="F:MiniTools.Views.Money.InterestViewModel.principleButtonColor"/>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.TermButtonColor">
+            <inheritdoc cref="F:MiniTools.Views.Money.InterestViewModel.termButtonColor"/>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.RateButtonColor">
+            <inheritdoc cref="F:MiniTools.Views.Money.InterestViewModel.rateButtonColor"/>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.BalanceEnabled">
+            <inheritdoc cref="F:MiniTools.Views.Money.InterestViewModel.balanceEnabled"/>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.PrincipalEnabled">
+            <inheritdoc cref="F:MiniTools.Views.Money.InterestViewModel.principalEnabled"/>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.TermEnabled">
+            <inheritdoc cref="F:MiniTools.Views.Money.InterestViewModel.termEnabled"/>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.RateEnabled">
+            <inheritdoc cref="F:MiniTools.Views.Money.InterestViewModel.rateEnabled"/>
+        </member>
+        <member name="F:MiniTools.Views.Money.InterestViewModel.showBalanceCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Money.InterestViewModel.ShowBalanceCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.ShowBalanceCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Money.InterestViewModel.ShowBalance"/>.</summary>
+        </member>
+        <member name="F:MiniTools.Views.Money.InterestViewModel.showPrincipalCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Money.InterestViewModel.ShowPrincipalCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.ShowPrincipalCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Money.InterestViewModel.ShowPrincipal"/>.</summary>
+        </member>
+        <member name="F:MiniTools.Views.Money.InterestViewModel.showTermCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Money.InterestViewModel.ShowTermCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.ShowTermCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Money.InterestViewModel.ShowTerm"/>.</summary>
+        </member>
+        <member name="F:MiniTools.Views.Money.InterestViewModel.showRateCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Money.InterestViewModel.ShowRateCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Money.InterestViewModel.ShowRateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Money.InterestViewModel.ShowRate"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
@@ -447,6 +502,30 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Equation">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Equation" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BalanceButtonColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BalanceButtonColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PrincipleButtonColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PrincipleButtonColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TermButtonColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TermButtonColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RateButtonColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RateButtonColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BalanceEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BalanceEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PrincipalEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PrincipalEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TermEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TermEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RateEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RateEnabled" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -524,6 +603,30 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Equation">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Equation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BalanceButtonColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BalanceButtonColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PrincipleButtonColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PrincipleButtonColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TermButtonColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TermButtonColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RateButtonColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RateButtonColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BalanceEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BalanceEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PrincipalEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PrincipalEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TermEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TermEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RateEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RateEnabled" generated properties.</summary>
         </member>
     </members>
 </doc>

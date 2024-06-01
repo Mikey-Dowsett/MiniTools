@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VerticalStackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             x:Class="MiniTools.Views.Money.Interest.InterestBalanceView"
+             xmlns:viewmodel="clr-namespace:MiniTools.Views.Money.Interest"
+             x:DataType="viewmodel:InterestBalanceView"
+             Padding="20" Spacing="20">
+    
+    <material:TextField Title="Principal" Keyboard="Numeric" Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.DollarSign}}"
+                        AllowClear="True" ReturnType="Done" x:Name="Principal"/>
+    
+    <Grid ColumnDefinitions="*, *" ColumnSpacing="20">
+        <material:TextField Title="Interest Rate" Keyboard="Numeric" x:Name="InterestRate"
+                            AllowClear="True" ReturnType="Done"/>
+        <material:PickerField Grid.Column="1" x:Name="InterestDropDown" AllowClear="False" />
+    </Grid>
+    
+    <Grid ColumnDefinitions="*, *" ColumnSpacing="20">
+        <material:TextField Title="Term" Keyboard="Numeric" x:Name="Term"
+                            AllowClear="True" ReturnType="Done"/>
+        <material:PickerField Grid.Column="1" x:Name="TermDropDown" AllowClear="False"/>
+    </Grid>
+    
+    <Button Text="Calculate" Clicked="Calculate" />
+    
+                <Image>
+                    <Image.Source>
+                        <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowDown}" Color="{StaticResource Bronze}" />
+                    </Image.Source>
+                </Image>
+    
+    <material:TextField Title="Total Interest" IsReadOnly="True" x:Name="TotalInterest" />
+    
+    <material:TextField Title="End Balance" IsReadOnly="True" x:Name="EndBalance" />
+</VerticalStackLayout>

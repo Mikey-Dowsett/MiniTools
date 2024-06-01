@@ -3,6 +3,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.VisualBasic;
 using MiniTools.Views.Conversions;
 using MiniTools.Views.Maths;
+using MiniTools.Views.Money;
+using MiniTools.Views.Money.Interest;
 using MiniTools.Views.NavPages;
 using UraniumUI;
 
@@ -24,6 +26,7 @@ public static class MauiProgram {
 
         builder.Services.AddSingleton<ConversionsPage>();
         builder.Services.AddSingleton<MathsPage>();
+        builder.Services.AddSingleton<MoneyPage>();
 
         //Conversions
         builder.Services.AddSingleton<TemperatureView>();
@@ -50,6 +53,11 @@ public static class MauiProgram {
         
         builder.Services.AddSingleton<PercentageView>();
         builder.Services.AddSingleton<PercentageViewModel>();
+        
+        //Money
+        builder.Services.AddSingleton<InterestView>();
+        builder.Services.AddSingleton<InterestViewModel>();
+        builder.Services.AddSingleton<InterestBalanceView>();
         
 #if DEBUG
         builder.Logging.AddDebug();

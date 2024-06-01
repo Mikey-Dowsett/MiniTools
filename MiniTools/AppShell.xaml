@@ -26,6 +26,10 @@
         Title="Maths" 
         Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Calculator}}" 
         ContentTemplate="{DataTemplate navpages:MathsPage}"/>
+    <ShellContent 
+        Title="Money" 
+        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.MoneyBill}}" 
+        ContentTemplate="{DataTemplate navpages:MoneyPage}"/>
     
     <Shell.FlyoutFooter>
         <Grid HeightRequest="50">

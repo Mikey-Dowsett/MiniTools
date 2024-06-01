@@ -324,3 +324,6 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulat
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_A918EE2D5C0E5037E1C27FEB9C92CD5F3495AA244400E19E30B42DEE36C7FB7A@2x.png
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_A918EE2D5C0E5037E1C27FEB9C92CD5F3495AA244400E19E30B42DEE36C7FB7A@3x.png
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\MiniTools.sourcelink.json
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\logo_CD0EFD641BA040526FE2440EAFCE6BE3A379A1269C13A7320C34A467A43EF8E7.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\logo_CD0EFD641BA040526FE2440EAFCE6BE3A379A1269C13A7320C34A467A43EF8E7@2x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\logo_CD0EFD641BA040526FE2440EAFCE6BE3A379A1269C13A7320C34A467A43EF8E7@3x.png

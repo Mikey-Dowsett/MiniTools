@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MiniTools.Views.Money.Interest"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             x:Class="MiniTools.Views.Money.InterestView"
+             xmlns:viewmodel="clr-namespace:MiniTools.Views.Money"
+             x:DataType="viewmodel:InterestViewModel"
+             Title="Interest"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem>
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.MoneyBillTrendUp}" Color="{StaticResource Bronze}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Grid HorizontalOptions="Fill" VerticalOptions="Start" ColumnDefinitions="*, *, *, *">
+                <Button Grid.Column="0" Text="Balance" StyleClass="Tabs" BackgroundColor="{Binding BalanceButtonColor}"
+                        Command="{Binding ShowBalanceCommand}"/>
+                <Button Grid.Column="1" Text="Principal" StyleClass="Tabs" BackgroundColor="{Binding PrincipleButtonColor}"
+                        Command="{Binding ShowPrincipalCommand}" />
+                <Button Grid.Column="2" Text="Term" StyleClass="Tabs" BackgroundColor="{Binding TermButtonColor}"
+                        Command="{Binding ShowTermCommand}" />
+                <Button Grid.Column="3" Text="Rate" StyleClass="Tabs" BackgroundColor="{Binding RateButtonColor}"
+                        Command="{Binding ShowRateCommand}" />
+            </Grid>
+            
+            <local:InterestBalanceView IsVisible="{Binding BalanceEnabled}" />
+        </VerticalStackLayout>
+            
+    </ContentPage.Content>
+    
+    
+</ContentPage>
