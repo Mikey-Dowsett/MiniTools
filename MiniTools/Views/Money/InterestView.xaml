@@ -32,7 +32,8 @@
                         Command="{Binding ShowRateCommand}" />
             </Grid>
             
-            <local:InterestBalanceView IsVisible="{Binding BalanceEnabled}" />
+            <local:InterestBalanceView IsVisible="{Binding BalanceEnabled}" VerticalOptions="Center" />
+            <local:InterestPrincipalView IsVisible="{Binding PrincipalEnabled}" VerticalOptions="Center" />
         </VerticalStackLayout>
             
     </ContentPage.Content>

@@ -96,6 +96,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Money.Inte
 build_metadata.AdditionalFiles.TargetPath = Views\Money\Interest\InterestBalanceView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Money\Interest\InterestBalanceView.xaml
 
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Money/Interest/InterestPrincipalView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Money.Interest.InterestPrincipalView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Money\Interest\InterestPrincipalView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Money\Interest\InterestPrincipalView.xaml
+
 [C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/NavPages/ConversionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.NavPages.ConversionsPage.xaml

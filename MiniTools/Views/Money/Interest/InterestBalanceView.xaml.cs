@@ -17,7 +17,10 @@ public partial class InterestBalanceView : VerticalStackLayout {
 
     private void Calculate(object? sender, EventArgs e) {
         double interest;
-        double endBalance;
+
+        if (Principal.Text == "" || InterestRate.Text == "" || Term.Text == "") {
+            return;
+        }
         
         double principal = double.Parse(Principal.Text);
         double interestRate = double.Parse(InterestRate.Text) / 100;
