@@ -7,7 +7,8 @@
              x:Class="MiniTools.Views.Conversions.ForceView"
              xmlns:viewmodel="clr-namespace:MiniTools.Views.Conversions"
              x:DataType="viewmodel:ForceViewModel"
-             Title="Force">
+             Title="Force"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem Command="{Binding FlipFormatsCommand}">

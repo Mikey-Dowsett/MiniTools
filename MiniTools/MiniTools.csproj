@@ -39,10 +39,10 @@
 
     <ItemGroup>
         <!-- App Icon -->
-        <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#1B1B1B"/>
+        <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\Splash\logo.svg" Color="#1B1B1B"/>
 
         <!-- Splash Screen -->
-        <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#1B1B1B" BaseSize="128,128"/>
+        <MauiSplashScreen Include="Resources\Splash\logo.svg" Color="#1B1B1B" BaseSize="128,128"/>
 
         <!-- Images -->
         <MauiImage Include="Resources\Images\*"/>
@@ -76,6 +76,9 @@
       <MauiXaml Update="Views\NavPages\MathsPage.xaml">
         <SubType>Designer</SubType>
       </MauiXaml>
+      <MauiXaml Update="Views\Money\Interest\InterestBalanceView.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
     </ItemGroup>
 
     <ItemGroup>
@@ -85,6 +88,10 @@
       </Compile>
       <Compile Update="Views\NavPages\MathsPage.xaml.cs">
         <DependentUpon>MathsPage.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Money\Interest\InterestBalanceView.xaml.cs">
+        <DependentUpon>InterestBalanceView.xaml</DependentUpon>
         <SubType>Code</SubType>
       </Compile>
     </ItemGroup>

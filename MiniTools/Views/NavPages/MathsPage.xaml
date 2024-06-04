@@ -5,7 +5,8 @@
              xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
              xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
              x:Class="MiniTools.Views.NavPages.MathsPage"
-             Title="Maths">
+             Title="Maths"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem>

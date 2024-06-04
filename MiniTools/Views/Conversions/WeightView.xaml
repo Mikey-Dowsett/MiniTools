@@ -7,7 +7,8 @@
              x:Class="MiniTools.Views.Conversions.WeightView"
              xmlns:viewmodel="clr-namespace:MiniTools.Views.Conversions"
              x:DataType="viewmodel:WeightViewModel"
-             Title="Weight">
+             Title="Weight"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem Command="{Binding FlipFormatsCommand}">

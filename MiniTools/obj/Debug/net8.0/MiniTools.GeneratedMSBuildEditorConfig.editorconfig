@@ -84,6 +84,36 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Simp
 build_metadata.AdditionalFiles.TargetPath = Views\Maths\SimpleCalculatorView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Maths\SimpleCalculatorView.xaml
 
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Money/InterestView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Money.InterestView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Money\InterestView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Money\InterestView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Money/Interest/InterestBalanceView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Money.Interest.InterestBalanceView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Money\Interest\InterestBalanceView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Money\Interest\InterestBalanceView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Money/Interest/InterestPrincipalView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Money.Interest.InterestPrincipalView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Money\Interest\InterestPrincipalView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Money\Interest\InterestPrincipalView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Money/Interest/InterestRateView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Money.Interest.InterestRateView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Money\Interest\InterestRateView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Money\Interest\InterestRateView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Money/Interest/InterestTermView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Money.Interest.InterestTermView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Money\Interest\InterestTermView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Money\Interest\InterestTermView.xaml
+
 [C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/NavPages/ConversionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.NavPages.ConversionsPage.xaml
@@ -95,3 +125,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.NavPages.MathsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NavPages\MathsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NavPages\MathsPage.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/NavPages/MoneyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.NavPages.MoneyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NavPages\MoneyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NavPages\MoneyPage.xaml

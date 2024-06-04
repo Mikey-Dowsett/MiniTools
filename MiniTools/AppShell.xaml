@@ -22,14 +22,20 @@
         Title="Conversions" 
         Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ArrowsLeftRight}}" 
         ContentTemplate="{DataTemplate navpages:ConversionsPage}"/>
+    
     <ShellContent 
         Title="Maths" 
         Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Calculator}}" 
         ContentTemplate="{DataTemplate navpages:MathsPage}"/>
     
+    <ShellContent 
+        Title="Money" 
+        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.MoneyBill}}" 
+        ContentTemplate="{DataTemplate navpages:MoneyPage}"/>
+    
     <Shell.FlyoutFooter>
         <Grid HeightRequest="50">
-            <Label Text="Version 0.0.35" TextColor="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" 
+            <Label Text="Version 0.0.425" TextColor="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" 
                    FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"/>
         </Grid>
     </Shell.FlyoutFooter>

@@ -4,7 +4,8 @@
              xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
              xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
              x:Class="MiniTools.Views.NavPages.ConversionsPage"
-             Title="Conversions">
+             Title="Conversions"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem>

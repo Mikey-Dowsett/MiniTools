@@ -1046,6 +1046,12 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\stamp\
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\MiniTools.sourcelink.json
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\logo.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\logo.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\logo.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\logo.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\logo.png
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\android\environment.x86_64.ll
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
@@ -1055,5 +1061,4 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\androi
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
-C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\MiniTools.sourcelink.json
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll

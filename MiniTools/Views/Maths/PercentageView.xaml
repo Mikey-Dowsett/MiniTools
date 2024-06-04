@@ -7,7 +7,8 @@
              x:Class="MiniTools.Views.Maths.PercentageView"
              xmlns:viewmodel="clr-namespace:MiniTools.Views.Maths"
              x:DataType="viewmodel:PercentageViewModel"
-             Title="Percentage">
+             Title="Percentage"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem>
