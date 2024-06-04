@@ -16,11 +16,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a96787-0fb5-430d-9180-4b029810a0a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestPrincipalView.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestPrincipalView.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestRateView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestRateView.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestTermView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestTermView.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniTools/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestBalanceView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestBalanceView.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestBalanceView.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/Money/Interest/InterestBalanceView.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/AppShell.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/AppShell.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/Views/Money/InterestView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/Money/InterestView.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.pdb" afterDir="false" />
@@ -287,6 +288,9 @@
       <workItem from="1717264753743" duration="346000" />
       <workItem from="1717265123798" duration="240000" />
       <workItem from="1717348405900" duration="26000" />
+      <workItem from="1717348499832" duration="685000" />
+      <workItem from="1717349245929" duration="864000" />
+      <workItem from="1717523706755" duration="671000" />
     </task>
     <servers />
   </component>
