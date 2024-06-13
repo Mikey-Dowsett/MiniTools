@@ -304,6 +304,32 @@
         <member name="P:MiniTools.Views.Money.InterestViewModel.ShowRateCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Money.InterestViewModel.ShowRate"/>.</summary>
         </member>
+        <member name="T:MiniTools.Views.Text.TextCasesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCasesViewModel.CaseOptions">
+            <inheritdoc cref="F:MiniTools.Views.Text.TextCasesViewModel.caseOptions"/>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCasesViewModel.InputText">
+            <inheritdoc cref="F:MiniTools.Views.Text.TextCasesViewModel.inputText"/>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCasesViewModel.SelectedCase">
+            <inheritdoc cref="F:MiniTools.Views.Text.TextCasesViewModel.selectedCase"/>
+        </member>
+        <member name="F:MiniTools.Views.Text.TextCasesViewModel.addToClipboardCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Text.TextCasesViewModel.AddToClipboardCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCasesViewModel.AddToClipboardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Text.TextCasesViewModel.AddToClipboard"/>.</summary>
+        </member>
+        <member name="F:MiniTools.Views.Text.TextCasesViewModel.changeCaseCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Text.TextCasesViewModel.ChangeCaseCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCasesViewModel.ChangeCaseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Text.TextCasesViewModel.ChangeCase"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
@@ -526,6 +552,15 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RateEnabled">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RateEnabled" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CaseOptions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CaseOptions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InputText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InputText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCase">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCase" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -627,6 +662,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RateEnabled">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RateEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CaseOptions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CaseOptions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InputText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InputText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCase">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCase" generated properties.</summary>
         </member>
     </members>
 </doc>

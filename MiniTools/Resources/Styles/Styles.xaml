@@ -15,6 +15,16 @@
         <Setter Property="FontSize" Value="30" />
     </Style>
     
+    <Style TargetType="Editor">
+        <Setter Property="FontSize" Value="30" />
+    </Style>
+    
+    <Style TargetType="Frame">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}"/>
+        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" />
+        <Setter Property="CornerRadius" Value="10" />
+    </Style>
+    
     <Style TargetType="Button" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Bronze}" />
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" />
@@ -66,4 +76,13 @@
         <Setter Property="FontSize" Value="30" />
         <Setter Property="TitleFontSize" Value="15" />
     </Style>
+    
+    <Style TargetType="material:EditorField">
+        <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" />
+        <Setter Property="AccentColor" Value="{StaticResource Bronze}" />
+        <Setter Property="TitleFontSize" Value="15" />
+    </Style>
+    
+    
 </ResourceDictionary>

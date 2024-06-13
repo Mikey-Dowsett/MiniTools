@@ -24,6 +24,11 @@
         ContentTemplate="{DataTemplate navpages:ConversionsPage}"/>
     
     <ShellContent 
+        Title="Text" 
+        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Font}}" 
+        ContentTemplate="{DataTemplate navpages:TextPage}"/>
+    
+    <ShellContent 
         Title="Maths" 
         Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Calculator}}" 
         ContentTemplate="{DataTemplate navpages:MathsPage}"/>
@@ -34,9 +39,13 @@
         ContentTemplate="{DataTemplate navpages:MoneyPage}"/>
     
     <Shell.FlyoutFooter>
-        <Grid HeightRequest="50">
-            <Label Text="Version 0.0.425" TextColor="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" 
-                   FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15"/>
+        <Grid HeightRequest="50" ColumnDefinitions="*, *" Padding="20, 0">
+            <ImageButton Grid.Column="0" Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Sun}}" Clicked="ChangeLightMode" 
+                         x:Name="LightButton" IsVisible="False" HorizontalOptions="Start"/>
+            <ImageButton Grid.Column="0" Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Moon}}" Clicked="ChangeLightMode" 
+                         x:Name="DarkButton" IsVisible="True" HorizontalOptions="Start"/>
+            <Label Text="Version 0.0.75" TextColor="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" 
+                   FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15" Grid.Column="1"/>
         </Grid>
     </Shell.FlyoutFooter>
 </Shell>

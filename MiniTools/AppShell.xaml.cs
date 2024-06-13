@@ -3,10 +3,13 @@ using MiniTools.Views.Maths;
 using MiniTools.Views.Money;
 using MiniTools.Views.Money.Interest;
 using MiniTools.Views.NavPages;
+using MiniTools.Views.Text;
 
 namespace MiniTools;
 
 public partial class AppShell : Shell {
+    private bool isDarkMode = true;
+    
     public AppShell() {
         InitializeComponent();
         
@@ -14,6 +17,7 @@ public partial class AppShell : Shell {
         Routing.RegisterRoute(nameof(ConversionsPage), typeof(ConversionsPage));
         Routing.RegisterRoute(nameof(MathsPage), typeof(MathsPage));
         Routing.RegisterRoute(nameof(MoneyPage), typeof(MoneyPage));
+        Routing.RegisterRoute(nameof(TextPage), typeof(TextPage));
         
         //Conversion Views
         Routing.RegisterRoute(nameof(TemperatureView), typeof(TemperatureView));
@@ -30,5 +34,23 @@ public partial class AppShell : Shell {
         //Money Views
         Routing.RegisterRoute(nameof(InterestView), typeof(InterestView));
         Routing.RegisterRoute(nameof(InterestBalanceView), typeof(InterestBalanceView));
+        
+        //Text
+        Routing.RegisterRoute(nameof(TextCasesView), typeof(TextCasesView));
+    }
+
+
+    private void ChangeLightMode(object? sender, EventArgs e) {
+        isDarkMode = !isDarkMode;
+
+        if (isDarkMode) {
+            Application.Current.UserAppTheme = AppTheme.Dark;
+        }
+        else {
+            Application.Current.UserAppTheme = AppTheme.Light;
+        }
+        
+        LightButton.IsVisible = !isDarkMode;
+        DarkButton.IsVisible = isDarkMode;
     }
 }
