@@ -8,8 +8,8 @@ public partial class ForceViewModel : ObservableObject {
         "Kilonewton", "Ounce-Force", "Poundal", "Pound-Force", "Ton-Force"];
     [ObservableProperty] private int firstFormat = 4;
     [ObservableProperty] private int secondFormat = 5;
-    [ObservableProperty] private double firstForce = 500;
-    [ObservableProperty] private double secondForce = 0.5;
+    [ObservableProperty] private double firstForce = 100;
+    [ObservableProperty] private double secondForce = 0.1;
     
     [RelayCommand]
     private void FlipFormats() {

@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MiniTools.Views.Conversions;
+﻿namespace MiniTools.Views.Conversions;
 
 public partial class AreaView : ContentPage {
+    private AreaViewModel vm;
+    
     public AreaView(AreaViewModel vm) {
         InitializeComponent();
 
-        this.BindingContext = vm;
+        BindingContext = vm;
+        this.vm = vm;
+    }
+    
+    protected override void OnAppearing() {
+        vm.FirstFormat = 2;
+        vm.SecondFormat = 4;
+        vm.FirstArea = 100;
+        vm.SecondArea = 0.01;
     }
 }

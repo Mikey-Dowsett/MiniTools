@@ -2,6 +2,7 @@
 
 public partial class FindAndReplaceView : ContentPage {
     private FindAndReplaceViewModel vm;
+    
     public FindAndReplaceView(FindAndReplaceViewModel vm) {
         InitializeComponent();
 
