@@ -15,4 +15,8 @@ public partial class TextPage : ContentPage {
     private void OpenCases(object? sender, EventArgs e) {
         Shell.Current.GoToAsync(nameof(TextCasesView));
     }
+    
+    private void OpenFindAndReplace(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(FindAndReplaceView));
+    }
 }

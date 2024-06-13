@@ -5,21 +5,16 @@
              xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
              xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
              x:Class="MiniTools.Views.NavPages.TextPage"
-             Title="Money"
-             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
-    
-    <ContentPage.ToolbarItems>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Font}" Color="{StaticResource Bronze}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
+             Title="Text"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20" >
-                <Button Clicked="OpenCases" Text="Cases" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.TextHeight}}" />
+                <Button Clicked="OpenCases" Text="Cases" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.TextHeight},
+                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
+                <Button Clicked="OpenFindAndReplace" Text="Find And Replace" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.MagnifyingGlass},
+                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

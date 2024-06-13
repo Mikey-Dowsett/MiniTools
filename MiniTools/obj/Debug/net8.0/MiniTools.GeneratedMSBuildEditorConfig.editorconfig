@@ -138,6 +138,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.NavPages.T
 build_metadata.AdditionalFiles.TargetPath = Views\NavPages\TextPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NavPages\TextPage.xaml
 
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Text/FindAndReplaceView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Text.FindAndReplaceView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Text\FindAndReplaceView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Text\FindAndReplaceView.xaml
+
 [C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Text/TextCasesView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Text.TextCasesView.xaml

@@ -7,44 +7,48 @@
     xmlns:navpages="clr-namespace:MiniTools.Views.NavPages"
     FlyoutBehavior="Flyout"
     Title="MiniTools"
-    BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}"
-    FlyoutBackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}"
-    TitleColor="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}">
+    BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}"
+    FlyoutBackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}"
+    TitleColor="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}">
     
     <Shell.FlyoutHeader>
         <Grid HeightRequest="100">
-            <Label Text="Mini Tools" TextColor="{StaticResource Bronze}" FontAttributes="Bold"
+            <Label Text="Mini Tools" TextColor="{StaticResource Accent}" FontAttributes="Bold"
                    HorizontalOptions="Center" VerticalOptions="Center" FontSize="40"/>
         </Grid>
     </Shell.FlyoutHeader>
     
     <ShellContent 
-        Title="Conversions" 
-        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ArrowsLeftRight}}" 
+        Title="Conversions"
+        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ArrowsLeftRight},
+            Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" 
         ContentTemplate="{DataTemplate navpages:ConversionsPage}"/>
     
     <ShellContent 
         Title="Text" 
-        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Font}}" 
+        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Font},
+            Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" 
         ContentTemplate="{DataTemplate navpages:TextPage}"/>
     
     <ShellContent 
         Title="Maths" 
-        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Calculator}}" 
+        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Calculator},
+            Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" 
         ContentTemplate="{DataTemplate navpages:MathsPage}"/>
     
     <ShellContent 
         Title="Money" 
-        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.MoneyBill}}" 
+        Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.MoneyBill},
+            Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" 
         ContentTemplate="{DataTemplate navpages:MoneyPage}"/>
     
     <Shell.FlyoutFooter>
         <Grid HeightRequest="50" ColumnDefinitions="*, *" Padding="20, 0">
-            <ImageButton Grid.Column="0" Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Sun}}" Clicked="ChangeLightMode" 
-                         x:Name="LightButton" IsVisible="False" HorizontalOptions="Start"/>
+            <ImageButton Grid.Column="0" Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Sun}, Color={StaticResource Dark}}" 
+                         Clicked="ChangeLightMode" x:Name="LightButton" IsVisible="False" HorizontalOptions="Start" />
             <ImageButton Grid.Column="0" Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Moon}}" Clicked="ChangeLightMode" 
                          x:Name="DarkButton" IsVisible="True" HorizontalOptions="Start"/>
-            <Label Text="Version 0.0.75" TextColor="{AppThemeBinding Light={StaticResource Charcoal}, Dark={StaticResource Smoke}}" 
+            <Label Text="Version 0.0.75" TextColor="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}" 
                    FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15" Grid.Column="1"/>
         </Grid>
     </Shell.FlyoutFooter>

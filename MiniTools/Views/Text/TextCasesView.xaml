@@ -8,12 +8,12 @@
              xmlns:viewmodel="clr-namespace:MiniTools.Views.Text"
              x:DataType="viewmodel:TextCasesViewModel"
              Title="Cases"
-             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem>
             <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.TextHeight}" Color="{StaticResource Bronze}" />
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.TextHeight}" Color="{StaticResource Accent}" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
@@ -23,9 +23,7 @@
             <material:PickerField ItemsSource="{Binding CaseOptions}" SelectedIndex="{Binding SelectedCase}" 
                                  Title="Case" AllowClear="False" />
             <Button Text="Change" Command="{Binding ChangeCaseCommand}" />
-            <Frame VerticalOptions="Fill" HeightRequest="590" BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
-               <Editor Text="{Binding InputText}" /> 
-            </Frame>
+            <material:EditorField Text="{Binding InputText}" Title="Input" />
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

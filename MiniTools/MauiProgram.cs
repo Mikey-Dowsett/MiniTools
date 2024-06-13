@@ -65,6 +65,9 @@ public static class MauiProgram {
         builder.Services.AddSingleton<TextCasesView>();
         builder.Services.AddSingleton<TextCasesViewModel>();
         
+        builder.Services.AddSingleton<FindAndReplaceView>();
+        builder.Services.AddSingleton<FindAndReplaceViewModel>();
+        
 #if DEBUG
         builder.Logging.AddDebug();
 #endif

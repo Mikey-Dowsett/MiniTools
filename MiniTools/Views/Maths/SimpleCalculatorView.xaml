@@ -8,12 +8,12 @@
              xmlns:viewmodel="clr-namespace:MiniTools.Views.Maths"
              x:DataType="viewmodel:SimpleCalculatorViewModel"
              Title="Simple Calculator"
-             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem>
             <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Calculator}" Color="{StaticResource Bronze}" />
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Calculator}" Color="{StaticResource Accent}" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
