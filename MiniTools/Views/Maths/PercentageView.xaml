@@ -8,25 +8,17 @@
              xmlns:viewmodel="clr-namespace:MiniTools.Views.Maths"
              x:DataType="viewmodel:PercentageViewModel"
              Title="Percentage"
-             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
-    
-    <ContentPage.ToolbarItems>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Percent}" Color="{StaticResource Bronze}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.Content>
         <VerticalStackLayout HorizontalOptions="Fill" VerticalOptions="Center" Spacing="20" Padding="20">
             <material:TextField Keyboard="Numeric" AllowClear="True" ReturnType="Done" Title="Number" Text="{Binding Number}"
-                                ReturnCommand="{Binding FindPercentCommand}"
-                                Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Hashtag}}" />
+                                ReturnCommand="{Binding FindPercentCommand}"/>
             
             <material:TextField Keyboard="Numeric" AllowClear="True" ReturnType="Done" Title="Percent" Text="{Binding Percentage}"
-                                ReturnCommand="{Binding FindPercentCommand}"
-                                Icon="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Percent}}" />
+                                ReturnCommand="{Binding FindPercentCommand}"/>
+            
+            <BoxView StyleClass="Divider" Color="{StaticResource Accent}" />
             
             <material:TextField IsReadOnly="True" Text="{Binding Answer}" />
         </VerticalStackLayout>

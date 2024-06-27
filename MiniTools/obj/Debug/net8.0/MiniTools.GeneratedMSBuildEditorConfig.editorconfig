@@ -72,6 +72,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Conversion
 build_metadata.AdditionalFiles.TargetPath = Views\Conversions\WeightView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Conversions\WeightView.xaml
 
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/AspectRatioView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.AspectRatioView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\AspectRatioView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\AspectRatioView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/AverageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.AverageView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\AverageView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\AverageView.xaml
+
 [C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/PercentageView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.PercentageView.xaml
@@ -131,3 +143,27 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.NavPages.MoneyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NavPages\MoneyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NavPages\MoneyPage.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/NavPages/TextPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.NavPages.TextPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NavPages\TextPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NavPages\TextPage.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Text/FindAndReplaceView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Text.FindAndReplaceView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Text\FindAndReplaceView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Text\FindAndReplaceView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Text/TextCasesView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Text.TextCasesView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Text\TextCasesView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Text\TextCasesView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Text/TextCounterView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Text.TextCounterView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Text\TextCounterView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Text\TextCounterView.xaml

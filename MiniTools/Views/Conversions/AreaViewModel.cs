@@ -8,8 +8,8 @@ public partial class AreaViewModel : ObservableObject {
         "Square Inch", "Square Foot", "Square Yard", "Square Mile", "Acre"];
     [ObservableProperty] private int firstFormat = 2;
     [ObservableProperty] private int secondFormat = 4;
-    [ObservableProperty] private double firstArea = 500;
-    [ObservableProperty] private double secondArea = 0.05;
+    [ObservableProperty] private double firstArea = 100;
+    [ObservableProperty] private double secondArea = 0.01;
     
     [RelayCommand]
     private void FlipFormats() {

@@ -8,17 +8,12 @@
              xmlns:viewmodel="clr-namespace:MiniTools.Views.Conversions"
              x:DataType="viewmodel:AreaViewModel"
              Title="Area"
-             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem Command="{Binding FlipFormatsCommand}">
             <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowsUpDown}" Color="{StaticResource Bronze}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ChartArea}" Color="{StaticResource Bronze}" />
+                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowsUpDown}" Color="{StaticResource Accent}" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
@@ -34,7 +29,7 @@
             
             <Image>
                 <Image.Source>
-                    <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowDown}" Color="{StaticResource Bronze}" />
+                    <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowDown}" Color="{StaticResource Accent}" />
                 </Image.Source>
             </Image>
             

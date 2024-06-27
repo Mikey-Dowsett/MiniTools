@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MiniTools.Views.Maths;
+﻿namespace MiniTools.Views.Maths;
 
 public partial class PercentageView : ContentPage {
+    private PercentageViewModel vm;
+    
     public PercentageView(PercentageViewModel vm) {
         InitializeComponent();
 
-        this.BindingContext = vm;
+        BindingContext = vm;
+        this.vm = vm;
+    }
+    
+    protected override void OnAppearing() {
+        vm.Number = 50;
+        vm.Percentage = 50;
+        vm.Answer = 25;
     }
 }

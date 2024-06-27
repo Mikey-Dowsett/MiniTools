@@ -21,7 +21,7 @@
     
     <Image>
         <Image.Source>
-            <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowDown}" Color="{StaticResource Bronze}" />
+            <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowDown}" Color="{StaticResource Accent}" />
         </Image.Source>
     </Image>
     

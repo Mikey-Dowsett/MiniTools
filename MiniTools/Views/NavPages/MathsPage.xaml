@@ -6,21 +6,15 @@
              xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
              x:Class="MiniTools.Views.NavPages.MathsPage"
              Title="Maths"
-             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
-    
-    <ContentPage.ToolbarItems>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Calculator}" Color="{StaticResource Bronze}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20" >
-                <Button Clicked="OpenCalculator" Text="Simple Calculator" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Calculator}}" />
-                <Button Clicked="OpenPercentage" Text="Percentage" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Percent}}" />
+                <Button Clicked="OpenCalculator" Text="Simple Calculator" />
+                <Button Clicked="OpenPercentage" Text="Percentage" />
+                <Button Clicked="OpenAverage" Text="Average"/>
+                <Button Clicked="OpenAspectRatio" Text="Aspect Ratio"/>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

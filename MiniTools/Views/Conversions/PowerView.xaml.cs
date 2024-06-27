@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MiniTools.Views.Conversions;
+﻿namespace MiniTools.Views.Conversions;
 
 public partial class PowerView : ContentPage {
+    private PowerViewModel vm;
+    
     public PowerView(PowerViewModel vm) {
         InitializeComponent();
 
-        this.BindingContext = vm;
+        BindingContext = vm;
+        this.vm = vm;
+    }
+    
+    protected override void OnAppearing() {
+        vm.FirstFormat = 0;
+        vm.SecondFormat = 1;
+        vm.FirstPower = 100;
+        vm.SecondPower = 0.1;
     }
 }

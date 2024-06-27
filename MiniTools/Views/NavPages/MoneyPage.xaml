@@ -6,20 +6,12 @@
              xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
              x:Class="MiniTools.Views.NavPages.MoneyPage"
              Title="Money"
-             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
-    
-    <ContentPage.ToolbarItems>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.MoneyBill}" Color="{StaticResource Bronze}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20" >
-                <Button Clicked="OpenInterest" Text="Interest" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.MoneyBillTrendUp}}" />
+                <Button Clicked="OpenInterest" Text="Interest" />
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

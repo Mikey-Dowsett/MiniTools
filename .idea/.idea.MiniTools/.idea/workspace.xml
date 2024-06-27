@@ -16,10 +16,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a96787-0fb5-430d-9180-4b029810a0a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniTools/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/libraryprojectimports.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/mauisplash.inputs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/mauisplash.inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/sp/drawable-v31/maui_splash_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/sp/drawable-v31/maui_splash_image.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/sp/drawable/maui_splash_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/sp/drawable/maui_splash_image.xml" afterDir="false" />
@@ -83,7 +86,7 @@
   "keyToString": {
     "Android.MiniTools.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "#3 on Merging TextTools",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -195,7 +198,6 @@
       <workItem from="1717348499832" duration="685000" />
       <workItem from="1717349245929" duration="864000" />
       <workItem from="1717523706755" duration="671000" />
-      <workItem from="1719502673247" duration="16000" />
     </task>
     <servers />
   </component>

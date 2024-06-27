@@ -9,15 +9,7 @@
              xmlns:viewmodel="clr-namespace:MiniTools.Views.Money"
              x:DataType="viewmodel:InterestViewModel"
              Title="Interest"
-             BackgroundColor="{AppThemeBinding Light={StaticResource Smoke}, Dark={StaticResource Charcoal}}">
-    
-    <ContentPage.ToolbarItems>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.MoneyBillTrendUp}" Color="{StaticResource Bronze}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.Content>
         <VerticalStackLayout>

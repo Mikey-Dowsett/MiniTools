@@ -9,8 +9,8 @@ public partial class DistanceViewModel : ObservableObject {
 
     [ObservableProperty] private int firstFormat = 2;
     [ObservableProperty] private int secondFormat = 3;
-    [ObservableProperty] private double firstDistance = 500;
-    [ObservableProperty] private double secondDistance = 0.5;
+    [ObservableProperty] private double firstDistance = 100;
+    [ObservableProperty] private double secondDistance = 0.1;
     
     [RelayCommand]
     private void FlipFormats() {

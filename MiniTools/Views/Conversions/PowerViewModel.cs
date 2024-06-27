@@ -6,10 +6,10 @@ namespace MiniTools.Views.Conversions;
 public partial class PowerViewModel : ObservableObject {
     [ObservableProperty] private List<string> powerList =
         ["Watt", "Kilowatt", "Megawatt", "Gigawatt", "Horse Power"];
-    [ObservableProperty] private int firstFormat;
-    [ObservableProperty] private int secondFormat;
-    [ObservableProperty] private double firstPower;
-    [ObservableProperty] private double secondPower;
+    [ObservableProperty] private int firstFormat = 0;
+    [ObservableProperty] private int secondFormat = 1;
+    [ObservableProperty] private double firstPower = 100;
+    [ObservableProperty] private double secondPower = 0.1;
     
     [RelayCommand]
     private void FlipFormats() {

@@ -1,12 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v8.0/android-x64",
+    "name": ".NETCoreApp,Version=v8.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v8.0": {},
-    ".NETCoreApp,Version=v8.0/android-x64": {
+    ".NETCoreApp,Version=v8.0": {
       "MiniTools/1.0": {
         "dependencies": {
           "CommunityToolkit.Maui": "7.0.1",
