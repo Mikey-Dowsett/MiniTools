@@ -10,18 +10,12 @@
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20">
-                <Button Clicked="OpenTemperature" Text="Temperature" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.TemperatureEmpty},
-                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
-                <Button Clicked="OpenDistance" Text="Distance" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Ruler},
-                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
-                <Button Clicked="OpenArea" Text="Area" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ChartArea},
-                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
-                <Button Clicked="OpenForce" Text="Force" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Dumbbell},
-                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
-                <Button Clicked="OpenWeight" Text="Weight" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ScaleBalanced},
-                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
-                <Button Clicked="OpenPower" Text="Power" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.BoltLightning},
-                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
+                <Button Clicked="OpenTemperature" Text="Temperature" />
+                <Button Clicked="OpenDistance" Text="Distance" />
+                <Button Clicked="OpenArea" Text="Area" />
+                <Button Clicked="OpenForce" Text="Force"/>
+                <Button Clicked="OpenWeight" Text="Weight" />
+                <Button Clicked="OpenPower" Text="Power" />
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

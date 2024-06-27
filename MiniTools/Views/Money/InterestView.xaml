@@ -11,14 +11,6 @@
              Title="Interest"
              BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
-    <ContentPage.ToolbarItems>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.MoneyBillTrendUp}" Color="{StaticResource Accent}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
-    
     <ContentPage.Content>
         <VerticalStackLayout>
             <Grid HorizontalOptions="Fill" VerticalOptions="Start" ColumnDefinitions="*, *, *, *">

@@ -20,8 +20,7 @@ public static class MauiProgram {
             .UseUraniumUI()
             .UseUraniumUIMaterial()
             .ConfigureFonts(fonts => {
-                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                fonts.AddFont("Nunito-Regular.ttf", "Nunito");
                 fonts.AddFontAwesomeIconFonts();
             });
 
@@ -55,6 +54,12 @@ public static class MauiProgram {
         
         builder.Services.AddSingleton<PercentageView>();
         builder.Services.AddSingleton<PercentageViewModel>();
+        
+        builder.Services.AddSingleton<AverageView>();
+        builder.Services.AddSingleton<AverageViewModel>();
+        
+        builder.Services.AddSingleton<AspectRatioView>();
+        builder.Services.AddSingleton<AspectRatioViewModel>();
         
         //Money
         builder.Services.AddSingleton<InterestView>();

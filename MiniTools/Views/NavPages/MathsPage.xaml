@@ -11,10 +11,10 @@
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20" >
-                <Button Clicked="OpenCalculator" Text="Simple Calculator" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Calculator},
-                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
-                <Button Clicked="OpenPercentage" Text="Percentage" ImageSource="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Percent},
-                    Color={AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}}" />
+                <Button Clicked="OpenCalculator" Text="Simple Calculator" />
+                <Button Clicked="OpenPercentage" Text="Percentage" />
+                <Button Clicked="OpenAverage" Text="Average"/>
+                <Button Clicked="OpenAspectRatio" Text="Aspect Ratio"/>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -309,3 +309,16 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\ma
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MiniTools.genruntimeconfig.cache
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\MiniTools.dll
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MiniTools.sourcelink.json
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\Nunito-Regular.ttf
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfgItunesArtwork.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg83.5x83.5@2x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg76x76@2x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg60x60@3x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg60x60@2x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg40x40@3x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg40x40@2x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg29x29@3x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg29x29@2x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg20x20@3x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg20x20@2x.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\Contents.json

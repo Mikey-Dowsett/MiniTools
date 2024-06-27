@@ -10,14 +10,6 @@
              Title="Cases"
              BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
-    <ContentPage.ToolbarItems>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.TextHeight}" Color="{StaticResource Accent}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
-    
     <ContentPage.Content>
         <VerticalStackLayout Padding="20" Spacing="20">
             <material:PickerField ItemsSource="{Binding CaseOptions}" SelectedIndex="{Binding SelectedCase}" 

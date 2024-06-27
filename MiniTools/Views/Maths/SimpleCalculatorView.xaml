@@ -10,14 +10,6 @@
              Title="Simple Calculator"
              BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
-    <ContentPage.ToolbarItems>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Calculator}" Color="{StaticResource Accent}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
-    
     <ContentPage.Content>
         <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20" Padding="20">
             <material:TextField IsReadOnly="True" Text="{Binding Equation}" />

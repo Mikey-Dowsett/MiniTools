@@ -16,11 +16,6 @@
                 <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.ArrowsUpDown}" Color="{StaticResource Accent}" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
-        <ToolbarItem>
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.Ruler}" Color="{StaticResource Accent}" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
