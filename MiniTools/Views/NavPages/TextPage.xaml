@@ -13,6 +13,7 @@
             <VerticalStackLayout Padding="20" Spacing="20" >
                 <Button Clicked="OpenCases" Text="Cases" />
                 <Button Clicked="OpenFindAndReplace" Text="Find And Replace" />
+                <Button Clicked="OpenTextCounter" Text="Text Counter" />
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>
