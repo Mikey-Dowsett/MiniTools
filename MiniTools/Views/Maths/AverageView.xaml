@@ -15,7 +15,7 @@
             <material:TextField  AllowClear="True" ReturnType="Done" Title="Numbers" Text="{Binding Numbers}"
                                 ReturnCommand="{Binding FindAverageCommand}" />
             
-            <BoxView StyleClass="Divider" Color="{StaticResource Accent}" />
+            <Image Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ArrowDown}, Color={StaticResource Accent}}" />
             
             <material:TextField IsReadOnly="True" Text="{Binding Average}" Title="Average" />
             <material:TextField IsReadOnly="True" Text="{Binding Median}" Title="Median" />
