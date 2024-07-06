@@ -61,6 +61,15 @@ public static class MauiProgram {
         builder.Services.AddSingleton<AspectRatioView>();
         builder.Services.AddSingleton<AspectRatioViewModel>();
         
+        builder.Services.AddSingleton<FractionSimplifierView>();
+        builder.Services.AddSingleton<FractionSimplifierViewModel>();
+        
+        builder.Services.AddSingleton<FactorialView>();
+        builder.Services.AddSingleton<FactorialViewModel>();
+        
+        builder.Services.AddSingleton<ExponentView>();
+        builder.Services.AddSingleton<ExponentViewModel>();
+        
         //Money
         builder.Services.AddSingleton<InterestView>();
         builder.Services.AddSingleton<InterestViewModel>();

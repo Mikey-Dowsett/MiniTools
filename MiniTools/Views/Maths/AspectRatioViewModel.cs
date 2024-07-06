@@ -21,13 +21,13 @@ public partial class AspectRatioViewModel : ObservableObject {
         List<int> widthFactors = new();
         List<int> heightFactors = new();
         
-        for (int i = 0; i < Width; i++) {
+        for (int i = 0; i <= Width; i++) {
             if ((Width / i) % 1 == 0) {
                 widthFactors.Insert(0, i);
             }
         }
         
-        for (int i = 0; i < Height; i++) {
+        for (int i = 0; i <= Height; i++) {
             if ((Height / i) % 1 == 0) {
                 heightFactors.Insert(0, i);
             }

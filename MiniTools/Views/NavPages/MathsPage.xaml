@@ -15,6 +15,9 @@
                 <Button Clicked="OpenPercentage" Text="Percentage" />
                 <Button Clicked="OpenAverage" Text="Average"/>
                 <Button Clicked="OpenAspectRatio" Text="Aspect Ratio"/>
+                <Button Clicked="OpenFractionSimplifier" Text="Fraction Simplifier"/>
+                <Button Clicked="OpenFactorial" Text="Factorial"/>
+                <Button Clicked="OpenExponent" Text="Exponent"/>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

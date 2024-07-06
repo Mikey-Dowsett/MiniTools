@@ -22,4 +22,16 @@ public partial class MathsPage : ContentPage {
     private void OpenAspectRatio(object? sender, EventArgs e) {
         Shell.Current.GoToAsync(nameof(AspectRatioView));
     }
+    
+    private void OpenFractionSimplifier(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(FractionSimplifierView));
+    }
+    
+    private void OpenFactorial(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(FactorialView));
+    }
+    
+    private void OpenExponent(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(ExponentView));
+    }
 }
