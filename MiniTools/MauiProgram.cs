@@ -82,6 +82,9 @@ public static class MauiProgram {
         builder.Services.AddSingleton<FindAndReplaceView>();
         builder.Services.AddSingleton<FindAndReplaceViewModel>();
         
+        builder.Services.AddSingleton<TextCounterView>();
+        builder.Services.AddSingleton<TextCounterViewModel>();
+        
 #if DEBUG
         builder.Logging.AddDebug();
 #endif

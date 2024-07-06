@@ -459,6 +459,31 @@
         <member name="P:MiniTools.Views.Text.TextCasesViewModel.ChangeCaseCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Text.TextCasesViewModel.ChangeCase"/>.</summary>
         </member>
+        <member name="T:MiniTools.Views.Text.TextCounterViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCounterViewModel.Characters">
+            <inheritdoc cref="F:MiniTools.Views.Text.TextCounterViewModel.characters"/>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCounterViewModel.Words">
+            <inheritdoc cref="F:MiniTools.Views.Text.TextCounterViewModel.words"/>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCounterViewModel.Lines">
+            <inheritdoc cref="F:MiniTools.Views.Text.TextCounterViewModel.lines"/>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCounterViewModel.Sentences">
+            <inheritdoc cref="F:MiniTools.Views.Text.TextCounterViewModel.sentences"/>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCounterViewModel.InputText">
+            <inheritdoc cref="F:MiniTools.Views.Text.TextCounterViewModel.inputText"/>
+        </member>
+        <member name="F:MiniTools.Views.Text.TextCounterViewModel.inputChangeCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Text.TextCounterViewModel.InputChangeCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Text.TextCounterViewModel.InputChangeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Text.TextCounterViewModel.InputChange"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
@@ -744,6 +769,18 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCase">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCase" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Characters">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Characters" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Words">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Words" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Lines">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Lines" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Sentences">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Sentences" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -908,6 +945,18 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCase">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCase" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Characters">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Characters" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Words">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Words" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Lines">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Lines" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Sentences">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Sentences" generated properties.</summary>
         </member>
     </members>
 </doc>

@@ -43,6 +43,7 @@ public partial class AppShell : Shell {
         //Text
         Routing.RegisterRoute(nameof(TextCasesView), typeof(TextCasesView));
         Routing.RegisterRoute(nameof(FindAndReplaceView), typeof(FindAndReplaceView));
+        Routing.RegisterRoute(nameof(TextCounterView), typeof(TextCounterView));
     }
 
 

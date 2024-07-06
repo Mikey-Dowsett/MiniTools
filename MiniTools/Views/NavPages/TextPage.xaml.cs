@@ -18,5 +18,9 @@ public partial class TextPage : ContentPage {
     
     private void OpenFindAndReplace(object? sender, EventArgs e) {
         Shell.Current.GoToAsync(nameof(FindAndReplaceView));
+    }    
+    
+    private void OpenTextCounter(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(TextCounterView));
     }
 }
