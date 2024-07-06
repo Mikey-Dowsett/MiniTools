@@ -18,7 +18,7 @@
             <material:TextField Keyboard="Numeric" AllowClear="True" ReturnType="Done" Title="Height" Text="{Binding Height}"
                                 ReturnCommand="{Binding FindAspectRatioCommand}"/>
             
-            <BoxView StyleClass="Divider" Color="{StaticResource Accent}" />
+            <Image Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ArrowDown}, Color={StaticResource Accent}}" />
             
             <material:TextField IsReadOnly="True" Text="{Binding AspectRatio}" Title="Aspect Ratio" />
             <material:TextField IsReadOnly="True" Text="{Binding GreatestCommonFactor}" Title="GCF" />

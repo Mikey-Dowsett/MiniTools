@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             x:Class="MiniTools.Views.Maths.FractionSimplifierView"
+             xmlns:viewmodel="clr-namespace:MiniTools.Views.Maths"
+             x:DataType="viewmodel:FractionSimplifierViewModel"
+             Title="Fraction Simplifier"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
+    
+    <ContentPage.Content>
+        <VerticalStackLayout HorizontalOptions="Fill" VerticalOptions="Center" Spacing="20" Padding="20">
+            <material:TextField  AllowClear="True" ReturnType="Done" Title="Numerator" Text="{Binding Numerator}"
+                                 ReturnCommand="{Binding SimplifyFractionsCommand}" />
+            <BoxView StyleClass="Divider" Color="{StaticResource Accent}" />
+            <material:TextField  AllowClear="True" ReturnType="Done" Title="Denominator" Text="{Binding Denominator}"
+                                 ReturnCommand="{Binding SimplifyFractionsCommand}" />
+            
+            <Image Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.ArrowDown}, Color={StaticResource Accent}}" />
+            
+            <material:TextField IsReadOnly="True" Text="{Binding SimplifiedNumerator}" />
+            <BoxView StyleClass="Divider" Color="{StaticResource Accent}" />
+            <material:TextField IsReadOnly="True" Text="{Binding SimplifiedDenominator}" />
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

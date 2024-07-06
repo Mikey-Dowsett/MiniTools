@@ -84,6 +84,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Aver
 build_metadata.AdditionalFiles.TargetPath = Views\Maths\AverageView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Maths\AverageView.xaml
 
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/ExponentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.ExponentView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\ExponentView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\ExponentView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/FactorialView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.FactorialView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\FactorialView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\FactorialView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/FractionSimplifierView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.FractionSimplifierView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\FractionSimplifierView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\FractionSimplifierView.xaml
+
 [C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/PercentageView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.PercentageView.xaml

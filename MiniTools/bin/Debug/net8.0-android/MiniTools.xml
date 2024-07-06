@@ -246,6 +246,66 @@
         <member name="P:MiniTools.Views.Maths.AverageViewModel.FindAverageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Maths.AverageViewModel.FindAverage"/>.</summary>
         </member>
+        <member name="T:MiniTools.Views.Maths.ExponentViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.ExponentViewModel.Number">
+            <inheritdoc cref="F:MiniTools.Views.Maths.ExponentViewModel.number"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.ExponentViewModel.Exponent">
+            <inheritdoc cref="F:MiniTools.Views.Maths.ExponentViewModel.exponent"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.ExponentViewModel.Answer">
+            <inheritdoc cref="F:MiniTools.Views.Maths.ExponentViewModel.answer"/>
+        </member>
+        <member name="F:MiniTools.Views.Maths.ExponentViewModel.calculateExponentCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Maths.ExponentViewModel.CalculateExponentCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Maths.ExponentViewModel.CalculateExponentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Maths.ExponentViewModel.CalculateExponent"/>.</summary>
+        </member>
+        <member name="T:MiniTools.Views.Maths.FactorialViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FactorialViewModel.Number">
+            <inheritdoc cref="F:MiniTools.Views.Maths.FactorialViewModel.number"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FactorialViewModel.Factorial">
+            <inheritdoc cref="F:MiniTools.Views.Maths.FactorialViewModel.factorial"/>
+        </member>
+        <member name="F:MiniTools.Views.Maths.FactorialViewModel.findFactorialCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Maths.FactorialViewModel.FindFactorialCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FactorialViewModel.FindFactorialCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Maths.FactorialViewModel.FindFactorial"/>.</summary>
+        </member>
+        <member name="T:MiniTools.Views.Maths.FractionSimplifierViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FractionSimplifierViewModel.Numerator">
+            <inheritdoc cref="F:MiniTools.Views.Maths.FractionSimplifierViewModel.numerator"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FractionSimplifierViewModel.Denominator">
+            <inheritdoc cref="F:MiniTools.Views.Maths.FractionSimplifierViewModel.denominator"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FractionSimplifierViewModel.SimplifiedNumerator">
+            <inheritdoc cref="F:MiniTools.Views.Maths.FractionSimplifierViewModel.simplifiedNumerator"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FractionSimplifierViewModel.SimplifiedDenominator">
+            <inheritdoc cref="F:MiniTools.Views.Maths.FractionSimplifierViewModel.simplifiedDenominator"/>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FractionSimplifierViewModel.GreatestCommonFactor">
+            <inheritdoc cref="F:MiniTools.Views.Maths.FractionSimplifierViewModel.greatestCommonFactor"/>
+        </member>
+        <member name="F:MiniTools.Views.Maths.FractionSimplifierViewModel.simplifyFractionsCommand">
+            <summary>The backing field for <see cref="P:MiniTools.Views.Maths.FractionSimplifierViewModel.SimplifyFractionsCommand"/>.</summary>
+        </member>
+        <member name="P:MiniTools.Views.Maths.FractionSimplifierViewModel.SimplifyFractionsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MiniTools.Views.Maths.FractionSimplifierViewModel.SimplifyFractions"/>.</summary>
+        </member>
         <member name="T:MiniTools.Views.Maths.PercentageViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -643,11 +703,29 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Number">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Number" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Percentage">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Percentage" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Exponent">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Exponent" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Answer">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Answer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Factorial">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Factorial" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Numerator">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Numerator" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Denominator">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Denominator" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SimplifiedNumerator">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SimplifiedNumerator" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SimplifiedDenominator">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SimplifiedDenominator" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Percentage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Percentage" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Equation">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Equation" generated properties.</summary>
@@ -802,11 +880,29 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Number">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Number" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Percentage">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Percentage" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Exponent">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Exponent" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Answer">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Answer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Factorial">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Factorial" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Numerator">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Numerator" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Denominator">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Denominator" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SimplifiedNumerator">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SimplifiedNumerator" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SimplifiedDenominator">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SimplifiedDenominator" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Percentage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Percentage" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Equation">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Equation" generated properties.</summary>

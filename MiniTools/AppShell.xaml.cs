@@ -32,6 +32,9 @@ public partial class AppShell : Shell {
         Routing.RegisterRoute(nameof(PercentageView), typeof(PercentageView));
         Routing.RegisterRoute(nameof(AverageView), typeof(AverageView));
         Routing.RegisterRoute(nameof(AspectRatioView), typeof(AspectRatioView));
+        Routing.RegisterRoute(nameof(FractionSimplifierView), typeof(FractionSimplifierView));
+        Routing.RegisterRoute(nameof(FactorialView), typeof(FactorialView));
+        Routing.RegisterRoute(nameof(ExponentView), typeof(ExponentView));
         
         //Money Views
         Routing.RegisterRoute(nameof(InterestView), typeof(InterestView));
