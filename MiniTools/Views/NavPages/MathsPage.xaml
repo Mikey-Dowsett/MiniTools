@@ -11,6 +11,7 @@
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20" >
+                <Label Text="Basic Math Tools" StyleClass="Header" />
                 <Button Clicked="OpenCalculator" Text="Simple Calculator" />
                 <Button Clicked="OpenPercentage" Text="Percentage" />
                 <Button Clicked="OpenAverage" Text="Average"/>
@@ -18,6 +19,11 @@
                 <Button Clicked="OpenFractionSimplifier" Text="Fraction Simplifier"/>
                 <Button Clicked="OpenFactorial" Text="Factorial"/>
                 <Button Clicked="OpenExponent" Text="Exponent"/>
+                
+                <BoxView StyleClass="Divider" Color="{StaticResource Accent}" />
+                <Label Text="Random Generators" StyleClass="Header" />
+                
+                <Button Clicked="OpenCoinFlip" Text="CoinFlip" />
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

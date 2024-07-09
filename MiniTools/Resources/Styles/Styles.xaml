@@ -10,9 +10,15 @@
         <Setter Property="ForegroundColor" Value="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}" />
     </Style>
     
-    <Style TargetType="Label">
+    <Style TargetType="Label" CanCascade="True">
         <Setter Property="FontSize" Value="15" />
         <Setter Property="FontFamily" Value="Nunito"></Setter>
+    </Style>
+    
+    <Style TargetType="Label" Class="Header">
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="HorizontalOptions" Value="Center" />
     </Style>
     
     <Style TargetType="Button" ApplyToDerivedTypes="True">

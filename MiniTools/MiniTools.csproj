@@ -68,10 +68,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Resources\Images\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <MauiXaml Update="Views\NavPages\ConversionsPage.xaml">
         <SubType>Designer</SubType>
       </MauiXaml>

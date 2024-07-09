@@ -112,6 +112,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Perc
 build_metadata.AdditionalFiles.TargetPath = Views\Maths\PercentageView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Maths\PercentageView.xaml
 
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Random/CoinFlipView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Random.CoinFlipView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Random\CoinFlipView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Random\CoinFlipView.xaml
+
 [C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/SimpleCalculatorView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.SimpleCalculatorView.xaml

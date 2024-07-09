@@ -1,5 +1,6 @@
 ﻿using MiniTools.Views.Conversions;
 using MiniTools.Views.Maths;
+using MiniTools.Views.Maths.Random;
 using MiniTools.Views.Money;
 using MiniTools.Views.Money.Interest;
 using MiniTools.Views.NavPages;
@@ -35,6 +36,9 @@ public partial class AppShell : Shell {
         Routing.RegisterRoute(nameof(FractionSimplifierView), typeof(FractionSimplifierView));
         Routing.RegisterRoute(nameof(FactorialView), typeof(FactorialView));
         Routing.RegisterRoute(nameof(ExponentView), typeof(ExponentView));
+        
+        //Maths - Random Views
+        Routing.RegisterRoute(nameof(CoinFlipView), typeof(CoinFlipView));
         
         //Money Views
         Routing.RegisterRoute(nameof(InterestView), typeof(InterestView));

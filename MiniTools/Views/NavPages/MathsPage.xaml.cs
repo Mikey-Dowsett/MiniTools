@@ -1,4 +1,5 @@
 ﻿using MiniTools.Views.Maths;
+using MiniTools.Views.Maths.Random;
 
 namespace MiniTools.Views.NavPages;
 
@@ -33,5 +34,9 @@ public partial class MathsPage : ContentPage {
     
     private void OpenExponent(object? sender, EventArgs e) {
         Shell.Current.GoToAsync(nameof(ExponentView));
+    }    
+    
+    private void OpenCoinFlip(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(CoinFlipView));
     }
 }

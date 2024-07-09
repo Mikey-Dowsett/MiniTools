@@ -346,3 +346,6 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulat
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg20x20@3x.png
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg20x20@2x.png
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\Contents.json
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\coin_heads.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\coin_tails.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\coin_blank.png
