@@ -2,29 +2,14 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
-             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
              x:Class="MiniTools.Views.Maths.Random.CoinFlipView"
-             xmlns:viewmodel="clr-namespace:MiniTools.Views.Maths.Random"
-             x:DataType="viewmodel:CoinFlipViewModel"
              Title="Coin Flip"
              BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
     
     <ContentPage.Content>
-        <VerticalStackLayout VerticalOptions="Center">
+        <VerticalStackLayout VerticalOptions="Center" Margin="20">
             <ImageButton Source="{Binding CoinImage}" Clicked="FlipCoin" x:Name="Coin"
-                         Margin="20" Command="{Binding FlipCoinCommand}"/>
-        <!--     <Grid RowDefinitions="*, *" RowSpacing="50" Margin="20"  -->
-        <!--           HorizontalOptions="Center" VerticalOptions="Center"> -->
-        <!--     <Path Grid.Row="0" Fill="{StaticResource Accent}" StrokeThickness="10" -->
-        <!--           Stroke="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}"> -->
-        <!--         <Path.Data> -->
-        <!--             <EllipseGeometry Center="150, 150" RadiusX="150" RadiusY="150"></EllipseGeometry> -->
-        <!--         </Path.Data> -->
-        <!--     </Path> -->
-        <!--     <Label Grid.Row="0" Text="{Binding CoinText}" HorizontalOptions="Center" VerticalOptions="Center" FontSize="40" FontAttributes="Bold" /> -->
-        <!--     <Button Grid.Row="1" Text="Flip" Command="{Binding FlipCoinCommand}" /> -->
-        <!-- </Grid> -->
+                         Command="{Binding FlipCoinCommand}"/>
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -73,7 +73,7 @@ public static class MauiProgram {
         
         //Maths - Random
         builder.Services.AddSingleton<CoinFlipView>();
-        builder.Services.AddSingleton<CoinFlipViewModel>();
+        builder.Services.AddSingleton<BottleSpinView>();
         
         //Money
         builder.Services.AddSingleton<InterestView>();

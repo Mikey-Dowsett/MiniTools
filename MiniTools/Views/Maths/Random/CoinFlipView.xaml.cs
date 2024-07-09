@@ -7,13 +7,8 @@ public partial class CoinFlipView : ContentPage {
     
     System.Random rnd = new();
     
-    private CoinFlipViewModel vm;
-    
-    public CoinFlipView(CoinFlipViewModel vm) {
+    public CoinFlipView() {
         InitializeComponent();
-
-        BindingContext = vm;
-        this.vm = vm;
     }
 
     private async void FlipCoin(object? sender, EventArgs e) {

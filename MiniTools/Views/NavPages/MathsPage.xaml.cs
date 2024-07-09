@@ -39,4 +39,8 @@ public partial class MathsPage : ContentPage {
     private void OpenCoinFlip(object? sender, EventArgs e) {
         Shell.Current.GoToAsync(nameof(CoinFlipView));
     }
+    
+    private void OpenBottleSpin(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(BottleSpinView));
+    }
 }

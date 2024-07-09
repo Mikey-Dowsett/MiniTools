@@ -11,7 +11,10 @@
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20" >
-                <Button Clicked="OpenInterest" Text="Interest" />
+                <Label Text="Money" StyleClass="Header" />
+                <Grid RowDefinitions="*" RowSpacing="20" ColumnDefinitions="*, *" ColumnSpacing="20">
+                    <Button Grid.Row="0" Grid.Column="0" Clicked="OpenInterest" Text="Interest" />
+                </Grid>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

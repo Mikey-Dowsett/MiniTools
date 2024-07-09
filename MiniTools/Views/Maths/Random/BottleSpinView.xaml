@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiniTools.Views.Maths.Random.BottleSpinView"
+             Title="Bottle Spin"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
+    
+    <ContentPage.Content>
+        <VerticalStackLayout VerticalOptions="Center">
+            <ImageButton Source="bottle.png" Clicked="SpinBottle" x:Name="Bottle"
+                         Margin="20" Command="{Binding FlipCoinCommand}"/>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>
