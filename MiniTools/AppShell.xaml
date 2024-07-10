@@ -48,7 +48,7 @@
                          Clicked="ChangeLightMode" x:Name="LightButton" IsVisible="False" HorizontalOptions="Start" />
             <ImageButton Grid.Column="0" Source="{FontImageSource FontFamily=FASolid, Glyph={x:Static fa:Solid.Moon}}" Clicked="ChangeLightMode" 
                          x:Name="DarkButton" IsVisible="True" HorizontalOptions="Start"/>
-            <Label Text="Version 0.0.75" TextColor="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}" 
+            <Label Text="Version 0.1.69" TextColor="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}" 
                    FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15" Grid.Column="1"/>
         </Grid>
     </Shell.FlyoutFooter>

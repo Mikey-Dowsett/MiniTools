@@ -26,7 +26,7 @@
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}" />
         <Setter Property="FontSize" Value="25" />
         <Setter Property="Padding" Value="0" />
-        <Setter Property="FontFamily" Value="Nunito"></Setter>
+        <Setter Property="FontFamily" Value="Nunito" />
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="CornerRadius" Value="10" />
         <Setter Property="HeightRequest" Value="75" />
@@ -49,7 +49,8 @@
     </Style>
     
     <Style TargetType="Button" Class="Calculator">
-        <Setter Property="HeightRequest" Value="75" />
+        <Setter Property="HeightRequest" Value="90" />
+        <Setter Property="WidthRequest" Value="90" />
     </Style>
     
     <Style TargetType="Button" Class="Tabs">
@@ -64,8 +65,9 @@
         <Setter Property="TitleColor" Value="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}" />
         <Setter Property="AccentColor" Value="{StaticResource Accent}" />
         <Setter Property="FontSize" Value="30" />
-        <Setter Property="FontFamily" Value="Nunito"></Setter>
+        <Setter Property="FontFamily" Value="Nunito" />
         <Setter Property="TitleFontSize" Value="15" />
+        <Setter Property="BorderThickness" Value="2" />
     </Style>
     
     <Style TargetType="material:TextField">
@@ -73,8 +75,9 @@
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}" />
         <Setter Property="AccentColor" Value="{StaticResource Accent}" />
         <Setter Property="FontSize" Value="30" />
-        <Setter Property="FontFamily" Value="Nunito"></Setter>
+        <Setter Property="FontFamily" Value="Nunito" />
         <Setter Property="TitleFontSize" Value="15" />
+        <Setter Property="BorderThickness" Value="2" />
     </Style>
     
     <Style TargetType="material:EditorField">
@@ -82,7 +85,8 @@
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Dark}, Dark={StaticResource Light}}" />
         <Setter Property="AccentColor" Value="{StaticResource Accent}" />
         <Setter Property="TitleFontSize" Value="15" />
-        <Setter Property="FontFamily" Value="Nunito"></Setter>
+        <Setter Property="FontFamily" Value="Nunito" />
+        <Setter Property="BorderThickness" Value="2" />
     </Style>
     
     

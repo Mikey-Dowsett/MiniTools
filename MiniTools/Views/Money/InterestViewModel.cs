@@ -26,6 +26,10 @@ public partial class InterestViewModel : ObservableObject {
         accentColor = (Color)appColorsDictionary["Accent"];
         ShowBalance();
     }
+    
+    public void ResetView() {
+        ShowBalance();
+    }
 
     [RelayCommand]
     private void ShowBalance() {
