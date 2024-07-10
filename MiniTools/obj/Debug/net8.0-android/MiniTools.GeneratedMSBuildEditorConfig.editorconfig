@@ -136,6 +136,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Rand
 build_metadata.AdditionalFiles.TargetPath = Views\Maths\Random\DiceRollView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Maths\Random\DiceRollView.xaml
 
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Random/RandomNumberView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Random.RandomNumberView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Random\RandomNumberView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Random\RandomNumberView.xaml
+
 [C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Money/InterestView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Money.InterestView.xaml

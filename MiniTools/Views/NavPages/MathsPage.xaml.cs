@@ -47,4 +47,8 @@ public partial class MathsPage : ContentPage {
     private void OpenDiceRoll(object? sender, EventArgs e) {
         Shell.Current.GoToAsync(nameof(DiceRollView));
     }
+    
+    private void OpenRandomNumber(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(RandomNumberView));
+    }
 }

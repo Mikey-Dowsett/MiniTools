@@ -16,20 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a96787-0fb5-430d-9180-4b029810a0a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MiniTools/Resources/Images/Dice/dice_five.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Resources/Images/Dice/dice_four.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Resources/Images/Dice/dice_one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Resources/Images/Dice/dice_roll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Resources/Images/Dice/dice_six.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Resources/Images/Dice/dice_three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Resources/Images/Dice/dice_two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/Random/DiceRollView.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/Random/DiceRollView.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/Random/RandomNumberView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/Random/RandomNumberView.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MiniTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MiniTools/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/AppShell.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/AppShell.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/MauiProgram.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/MiniTools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/MiniTools.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/Views/Maths/Random/CoinFlipView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/Maths/Random/CoinFlipView.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/Views/NavPages/MathsPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/NavPages/MathsPage.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/Views/NavPages/MathsPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/Views/NavPages/MathsPage.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-android/MiniTools.dll" afterDir="false" />
@@ -43,69 +34,27 @@
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/bin/Debug/net8.0/MiniTools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/.cache/com.companyname.minitools.flag" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/.cache/com.companyname.minitools.flag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/MiniTools.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Java.Interop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Java.Interop.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/MiniTools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.Export.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.Export.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/Mono.Android.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/assets/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/appcompat/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/appcompat/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/constraintlayout/widget/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/constraintlayout/widget/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/core/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/core/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/customview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/customview/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/dynamicanimation/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/dynamicanimation/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/legacy/coreutils/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/legacy/coreutils/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/loader/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/loader/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/swiperefreshlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/swiperefreshlayout/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/transition/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/transition/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/vectordrawable/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/vectordrawable/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/vectordrawable/animated/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/vectordrawable/animated/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/viewpager/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/viewpager/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/viewpager2/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/androidx/viewpager2/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/bumptech/glide/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/bumptech/glide/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$interpolator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$layout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$mipmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$plurals.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$plurals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/companyname/minitools/R$xml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/google/android/material/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/google/android/material/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/microsoft/maui/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes/com/microsoft/maui/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/classes2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/com.companyname.minitools.apk" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/com.companyname.minitools.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/packaged_resources" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/bin/packaged_resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/appcompat/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/constraintlayout/widget/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/constraintlayout/widget/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/core/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/customview/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/dynamicanimation/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/dynamicanimation/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/legacy/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/legacy/coreutils/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/loader/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/swiperefreshlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/transition/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/transition/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/vectordrawable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/vectordrawable/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/vectordrawable/animated/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/vectordrawable/animated/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/viewpager/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/viewpager2/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/androidx/viewpager2/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/com/bumptech/glide/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/com/bumptech/glide/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/com/companyname/minitools/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/com/companyname/minitools/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/com/google/android/material/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/com/google/android/material/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/com/microsoft/maui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/android/src/com/microsoft/maui/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/build.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/buildid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/buildid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/devices.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/devices.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/100/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/100/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/101/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/101/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/102/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/102/jl/res.zip" afterDir="false" />
@@ -158,36 +107,21 @@
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/164/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/164/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/98/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/98/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/99/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/lp/99/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/mauiimage.inputs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/mauiimage.inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/2E90E89EAD89A570-files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/2E90E89EAD89A570-files.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-hdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-hdpi_appicon_foreground.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-mdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-mdpi_appicon_foreground.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-xhdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-xhdpi_appicon_foreground.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-xxhdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-xxhdpi_appicon_foreground.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-xxxhdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/flat/mipmap-xxxhdpi_appicon_foreground.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-hdpi/appicon_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-hdpi/appicon_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-mdpi/appicon_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-mdpi/appicon_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-xhdpi/appicon_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-xhdpi/appicon_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-xxhdpi/appicon_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-xxhdpi/appicon_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resolvedassemblies.hash" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-android/resolvedassemblies.hash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/MiniTools.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/mauiimage.inputs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/mauiimage.inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/ref/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/ref/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/refint/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-ios/iossimulator-x64/refint/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/MiniTools.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/mauiimage.inputs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/mauiimage.inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/ref/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/ref/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/refint/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/refint/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/MiniTools.AssemblyInfo.cs" afterDir="false" />
@@ -200,7 +134,6 @@
       <change beforePath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/refint/MiniTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MiniTools/obj/Debug/net8.0/refint/MiniTools.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MiniToolsTest/obj/Debug/net8.0/MiniToolsTest.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,27 +180,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android.MiniTools.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;RandomGenerators&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android.MiniTools.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "RandomGenerators",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\mikey\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\mikey\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\mikey\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\mikey\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\mikey\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\mikey\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Android.MiniTools">
     <configuration name="MiniTools" type="UwpProject" factoryName="UWP">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/MiniTools/MiniTools.csproj" />
@@ -381,6 +314,7 @@
       <workItem from="1720576134566" duration="591000" />
       <workItem from="1720576747330" duration="796000" />
       <workItem from="1720577569044" duration="857000" />
+      <workItem from="1720626372636" duration="1593000" />
     </task>
     <servers />
   </component>

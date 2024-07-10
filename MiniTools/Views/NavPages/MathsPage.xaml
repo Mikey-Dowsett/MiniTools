@@ -29,6 +29,7 @@
                     <Button Grid.Row="0" Grid.Column="0" Clicked="OpenCoinFlip" Text="Coin Flip"/>
                     <Button Grid.Row="0" Grid.Column="1" Clicked="OpenBottleSpin" Text="Bottle Spin" />
                     <Button Grid.Row="1" Grid.Column="0" Clicked="OpenDiceRoll" Text="Dice Roll" />
+                    <Button Grid.Row="1" Grid.Column="1" Clicked="OpenRandomNumber" Text="Random #" />
                 </Grid>
                 
                 

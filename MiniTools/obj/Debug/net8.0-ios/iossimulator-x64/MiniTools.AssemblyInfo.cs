@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5591eca472b2245339df47db353b2d5c4d31cb29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7dcbd5ccd3cf151d836e106b522977deabccdbde")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
