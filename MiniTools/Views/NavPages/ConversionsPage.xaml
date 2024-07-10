@@ -10,12 +10,15 @@
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20">
-                <Button Clicked="OpenTemperature" Text="Temperature" />
-                <Button Clicked="OpenDistance" Text="Distance" />
-                <Button Clicked="OpenArea" Text="Area" />
-                <Button Clicked="OpenForce" Text="Force"/>
-                <Button Clicked="OpenWeight" Text="Weight" />
-                <Button Clicked="OpenPower" Text="Power" />
+                <Label Text="Convertors" StyleClass="Header" />
+                <Grid RowDefinitions="*, *, *" RowSpacing="20" ColumnDefinitions="*, *" ColumnSpacing="20">
+                    <Button Grid.Row="0" Grid.Column="0" Clicked="OpenTemperature" Text="Temperature" />
+                    <Button Grid.Row="0" Grid.Column="1" Clicked="OpenDistance" Text="Distance" />
+                    <Button Grid.Row="1" Grid.Column="0" Clicked="OpenArea" Text="Area" />
+                    <Button Grid.Row="1" Grid.Column="1" Clicked="OpenForce" Text="Force"/>
+                    <Button Grid.Row="2" Grid.Column="0" Clicked="OpenWeight" Text="Weight" />
+                    <Button Grid.Row="2" Grid.Column="1" Clicked="OpenPower" Text="Power" />
+                </Grid>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

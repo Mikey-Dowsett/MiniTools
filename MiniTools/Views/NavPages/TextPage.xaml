@@ -11,9 +11,12 @@
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <VerticalStackLayout Padding="20" Spacing="20" >
-                <Button Clicked="OpenCases" Text="Cases" />
-                <Button Clicked="OpenFindAndReplace" Text="Find And Replace" />
-                <Button Clicked="OpenTextCounter" Text="Text Counter" />
+                <Label Text="Text" StyleClass="Header" />
+                <Grid RowDefinitions="*, *" RowSpacing="20" ColumnDefinitions="*, *" ColumnSpacing="20">
+                <Button Grid.Row="0" Grid.Column="0" Clicked="OpenCases" Text="Cases" />
+                <Button Grid.Row="0" Grid.Column="1" Clicked="OpenFindAndReplace" Text="Find / Replace" />
+                <Button Grid.Row="1" Grid.Column="0" Clicked="OpenTextCounter" Text="Text Counter" />
+                </Grid>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

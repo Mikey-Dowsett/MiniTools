@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             x:Class="MiniTools.Views.Maths.Random.RandomNumberView"
+             Title="Dice Roll"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light}, Dark={StaticResource Dark}}">
+    
+    <ContentPage.Content>
+        <VerticalStackLayout VerticalOptions="Center" Margin="20" Spacing="20">
+            <Grid ColumnDefinitions="*, *" ColumnSpacing="20">
+                <material:TextField Grid.Column="0" Title="Min" x:Name="Min" Text="0" Keyboard="Numeric" />
+                <material:TextField Grid.Column="1" Title="Max" x:Name="Max" Text="100" Keyboard="Numeric" />
+            </Grid>
+            <Button Text="Generate" Clicked="GenerateRandomNumber" />
+            
+            <Label StyleClass="Header" x:Name="Number" FontSize="50" Text="0" />
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

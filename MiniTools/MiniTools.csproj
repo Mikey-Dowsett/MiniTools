@@ -39,13 +39,14 @@
 
     <ItemGroup>
         <!-- App Icon -->
-        <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg"/>
+        <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.png" Color="#1B1B1B" BaseSize="128, 128"/>
 
         <!-- Splash Screen -->
-        <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#1B1B1B" BaseSize="128,128" />
-
+        <MauiSplashScreen Include="Resources\Splash\splash.png" BaseSize="128, 128" Color="#1B1B1B" />
+        
         <!-- Images -->
         <MauiImage Include="Resources\Images\*"/>
+        <MauiImage Include="Resources\Images\Dice\*"/>
 
         <!-- Custom Fonts -->
         <MauiFont Include="Resources\Fonts\*"/>
@@ -68,10 +69,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Resources\Images\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <MauiXaml Update="Views\NavPages\ConversionsPage.xaml">
         <SubType>Designer</SubType>
       </MauiXaml>
@@ -79,6 +76,27 @@
         <SubType>Designer</SubType>
       </MauiXaml>
       <MauiXaml Update="Views\Money\Interest\InterestBalanceView.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+      <MauiXaml Update="Views\Maths\Algebra\AspectRatioView.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+      <MauiXaml Update="Views\Maths\Algebra\AverageView.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+      <MauiXaml Update="Views\Maths\Algebra\ExponentView.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+      <MauiXaml Update="Views\Maths\Algebra\FactorialView.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+      <MauiXaml Update="Views\Maths\Algebra\FractionSimplifierView.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+      <MauiXaml Update="Views\Maths\Algebra\PercentageView.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+      <MauiXaml Update="Views\Maths\Algebra\SimpleCalculatorView.xaml">
         <SubType>Designer</SubType>
       </MauiXaml>
     </ItemGroup>
@@ -94,6 +112,34 @@
       </Compile>
       <Compile Update="Views\Money\Interest\InterestBalanceView.xaml.cs">
         <DependentUpon>InterestBalanceView.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Maths\Algebra\AspectRatioView.xaml.cs">
+        <DependentUpon>AspectRatioView.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Maths\Algebra\AverageView.xaml.cs">
+        <DependentUpon>AverageView.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Maths\Algebra\ExponentView.xaml.cs">
+        <DependentUpon>ExponentView.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Maths\Algebra\FactorialView.xaml.cs">
+        <DependentUpon>FactorialView.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Maths\Algebra\FractionSimplifierView.xaml.cs">
+        <DependentUpon>FractionSimplifierView.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Maths\Algebra\PercentageView.xaml.cs">
+        <DependentUpon>PercentageView.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Maths\Algebra\SimpleCalculatorView.xaml.cs">
+        <DependentUpon>SimpleCalculatorView.xaml</DependentUpon>
         <SubType>Code</SubType>
       </Compile>
     </ItemGroup>

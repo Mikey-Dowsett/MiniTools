@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.VisualBasic;
 using MiniTools.Views.Conversions;
 using MiniTools.Views.Maths;
+using MiniTools.Views.Maths.Random;
 using MiniTools.Views.Money;
 using MiniTools.Views.Money.Interest;
 using MiniTools.Views.NavPages;
@@ -69,6 +70,12 @@ public static class MauiProgram {
         
         builder.Services.AddSingleton<ExponentView>();
         builder.Services.AddSingleton<ExponentViewModel>();
+        
+        //Maths - Random
+        builder.Services.AddSingleton<CoinFlipView>();
+        builder.Services.AddSingleton<BottleSpinView>();
+        builder.Services.AddSingleton<DiceRollView>();
+        builder.Services.AddSingleton<RandomNumberView>();
         
         //Money
         builder.Services.AddSingleton<InterestView>();

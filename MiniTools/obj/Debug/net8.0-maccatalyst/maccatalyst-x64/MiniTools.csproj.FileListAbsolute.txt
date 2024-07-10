@@ -322,3 +322,14 @@ C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\ma
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg20x20@3x.png
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\appiconfg20x20@2x.png
 C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appiconfg.appiconset\Contents.json
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\coin_heads.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\coin_tails.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\coin_blank.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\bottle.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_four.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_six.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_five.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_two.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_three.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_one.png
+C:\Users\mikey\RiderProjects\MiniTools\MiniTools\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_roll.png

@@ -72,47 +72,71 @@ build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Conversion
 build_metadata.AdditionalFiles.TargetPath = Views\Conversions\WeightView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Conversions\WeightView.xaml
 
-[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/AspectRatioView.xaml]
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Algebra/AspectRatioView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.AspectRatioView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Maths\AspectRatioView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Maths\AspectRatioView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Algebra.AspectRatioView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Algebra\AspectRatioView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Algebra\AspectRatioView.xaml
 
-[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/AverageView.xaml]
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Algebra/AverageView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.AverageView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Maths\AverageView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Maths\AverageView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Algebra.AverageView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Algebra\AverageView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Algebra\AverageView.xaml
 
-[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/ExponentView.xaml]
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Algebra/ExponentView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.ExponentView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Maths\ExponentView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Maths\ExponentView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Algebra.ExponentView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Algebra\ExponentView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Algebra\ExponentView.xaml
 
-[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/FactorialView.xaml]
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Algebra/FactorialView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.FactorialView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Maths\FactorialView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Maths\FactorialView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Algebra.FactorialView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Algebra\FactorialView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Algebra\FactorialView.xaml
 
-[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/FractionSimplifierView.xaml]
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Algebra/FractionSimplifierView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.FractionSimplifierView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Maths\FractionSimplifierView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Maths\FractionSimplifierView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Algebra.FractionSimplifierView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Algebra\FractionSimplifierView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Algebra\FractionSimplifierView.xaml
 
-[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/PercentageView.xaml]
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Algebra/PercentageView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.PercentageView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Maths\PercentageView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Maths\PercentageView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Algebra.PercentageView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Algebra\PercentageView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Algebra\PercentageView.xaml
 
-[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/SimpleCalculatorView.xaml]
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Algebra/SimpleCalculatorView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.SimpleCalculatorView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Maths\SimpleCalculatorView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Maths\SimpleCalculatorView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Algebra.SimpleCalculatorView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Algebra\SimpleCalculatorView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Algebra\SimpleCalculatorView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Random/BottleSpinView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Random.BottleSpinView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Random\BottleSpinView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Random\BottleSpinView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Random/CoinFlipView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Random.CoinFlipView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Random\CoinFlipView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Random\CoinFlipView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Random/DiceRollView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Random.DiceRollView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Random\DiceRollView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Random\DiceRollView.xaml
+
+[C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Maths/Random/RandomNumberView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MiniTools.Views.Maths.Random.RandomNumberView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Maths\Random\RandomNumberView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Maths\Random\RandomNumberView.xaml
 
 [C:/Users/mikey/RiderProjects/MiniTools/MiniTools/Views/Money/InterestView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
