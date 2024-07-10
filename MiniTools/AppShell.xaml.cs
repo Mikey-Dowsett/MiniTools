@@ -40,6 +40,7 @@ public partial class AppShell : Shell {
         //Maths - Random Views
         Routing.RegisterRoute(nameof(CoinFlipView), typeof(CoinFlipView));
         Routing.RegisterRoute(nameof(BottleSpinView), typeof(BottleSpinView));
+        Routing.RegisterRoute(nameof(DiceRollView), typeof(DiceRollView));
         
         //Money Views
         Routing.RegisterRoute(nameof(InterestView), typeof(InterestView));

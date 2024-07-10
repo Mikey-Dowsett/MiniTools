@@ -43,4 +43,8 @@ public partial class MathsPage : ContentPage {
     private void OpenBottleSpin(object? sender, EventArgs e) {
         Shell.Current.GoToAsync(nameof(BottleSpinView));
     }
+    
+    private void OpenDiceRoll(object? sender, EventArgs e) {
+        Shell.Current.GoToAsync(nameof(DiceRollView));
+    }
 }

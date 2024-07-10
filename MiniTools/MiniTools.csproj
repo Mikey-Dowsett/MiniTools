@@ -46,6 +46,7 @@
         
         <!-- Images -->
         <MauiImage Include="Resources\Images\*"/>
+        <MauiImage Include="Resources\Images\Dice\*"/>
 
         <!-- Custom Fonts -->
         <MauiFont Include="Resources\Fonts\*"/>

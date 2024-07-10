@@ -8,8 +8,7 @@
     
     <ContentPage.Content>
         <VerticalStackLayout VerticalOptions="Center" Margin="20">
-            <ImageButton Source="{Binding CoinImage}" Clicked="FlipCoin" x:Name="Coin"
-                         Command="{Binding FlipCoinCommand}"/>
+            <ImageButton Source="coin_heads.png" Clicked="FlipCoin" x:Name="Coin" />
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>
